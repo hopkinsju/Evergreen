@@ -1,6 +1,7 @@
 Evergreen UI Style Guide
 ------------------------
 Products are made to be used. There is no reason to add effort to develop, test and document a product that won't be as much used as expected. In software products the user experie 
+
 * The purpose of this UI Style guide is to create a basis to have a consistent look and feel of the complete Evergreen´s web staff client.
 * Think always according to user-center design.
 * It will be mainly used by developers without limiting anyone who needs to consult it.
