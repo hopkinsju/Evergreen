@@ -82,7 +82,7 @@ Being friendly always work
 
 Language is the most important way to communicate between people but communication channels and codes vary a lot when a system is involved. Show that systems are developed by people, avoid technical words or code and be gentle in the way of saying things.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/friendly1-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/friendly1.png[]
 
 [red]*Don´t*
 
