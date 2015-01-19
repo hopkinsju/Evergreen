@@ -235,9 +235,11 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/col
 Typography
 ~~~~~~~~~~
 
-Helvetica Heue
+Roboto
 
 Iconography
 ~~~~~~~~~~~
 
-Bootstrap Glyphicon Halflings set.
+Bootstrap Glyphicon Halflings set: http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
+
+Icon set: http://www.fatcow.com/free-icons
