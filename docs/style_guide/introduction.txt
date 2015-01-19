@@ -235,11 +235,37 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/col
 Typography
 ~~~~~~~~~~
 
-Roboto
+image:[image]
+
+* Every text will be written in Roboto Normal 400.
+* The variables that are going to be used are Roboto Regular and Roboto Bold.
+    - Roboto Regular will be used for every text (a single word or phrase or paragraph).
+    - Roboto Bold will be used to enphasize a text (a single word or phrase).
+
+You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fonts]
+
+Type color
+^^^^^^^^^^^
+
+* When the background color is white: Roboto Normal 400 will be in grey scale, dark grey (#231F20).
+* When the backgrund color is a color:Roboto Normal 400 will be in white (#FFFFFF).
+* Exceptions in "UI Elements (controls)".
+
+Type Scale
+^^^^^^^^^^
+
+* Unit: As a convention one em is equivalent to 16px.
+* Variety of sizes provides an order in UIs. Too many different sizes can end up in a cluttered UI,though.
+* Sizes set allowed for the Evergreen´s web application:
+
+image:[image]
 
 Iconography
 ~~~~~~~~~~~
 
-Bootstrap Glyphicon Halflings set: http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp
+Icons can be used as an illustrative shortcut to some actions.
 
-Icon set: http://www.fatcow.com/free-icons
+http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyphicon Halflings set]
+
+http://www.fatcow.com/free-icons[FatCow.com]
+
