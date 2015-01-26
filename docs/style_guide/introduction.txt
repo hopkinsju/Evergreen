@@ -1,6 +1,6 @@
 Evergreen UI Style Guide
 ------------------------
-Products are made to be used. There is no reason to add effort to develop, test and document a product that won't be as much used as expected. In software products the user experie 
+Products are made to be used. There is no reason to add effort to develop, test and document a product that won't be as much used as expected. In software products the user experience is provided mainly through the user interface, and how a user interface is developed is guided by a UI style guide.
 
 * The purpose of this UI Style guide is to create a basis to have a consistent look and feel of the complete Evergreen´s web staff client.
 * Think always according to user-center design.
@@ -12,164 +12,299 @@ Design Principles
 Be Simple
 ~~~~~~~~~
 
-Simplicity on tasks, white spaces and an intuitive navigation are the perfect combination that users expect from a web application. Reducing extra effort avoid frustration and early abandonment.
+Simplicity of tasks, white spaces and an intuitive navigation are the perfect combination that users expect from a web application. Reducing extra effort avoids frustration and early abandonment.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/simple1.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-03.png[]
 
 [red]*Don´t*
 
-UIs become cluttered and complex while much data is displayed, it can produce confusion to the users and can make the application more difficult to learn.
+UIs become cluttered and complex when too much data is displayed; it can produce confusion and can make the application more difficult to learn.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/simple2.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-04.png[]
 
 [green]*Do*
 
-Design Patterns as Progressive and Staged Disclosure can be applied. Focus is always on users effortless.
+Design Patterns as Progressive and Staged Disclosure can be applied. Focus is always on reducing user effort.
 
 Be Concise
 ~~~~~~~~~~
 
-Users need their tasks to be done quickly and effectively when needed. Give brief and precise instructions so users do not lose time with completing unnecessary information or thinking too much how to proceed.
+Users need their tasks to be done quickly and effectively when needed. Give brief and precise instructions so users do not waste time completing unnecessary information or thinking too much about how to proceed.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/concise1.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-01.png[]
 
 [red]*Don´t*
 
-The user is discouraged when see that too much information must be completed.
+The user is discouraged when seeing that too much information must be completed.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/concise2.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-02.png[]
 
 [green]*Do*
 
-Account Registration Design Pattern can be applied. The less information, more satisfying the action will be.
+Account Registration Design Pattern can be applied. The less information required, the more satisfying the action will be.
 
 Be Consistent
 ~~~~~~~~~~~~~
 
-Users feel lost when everything changes as they move around the web application. Visual consistency makes UIs easier to use, gives an overall impression of professionalism and reliability and it reduces the slope of the UI learning curve which is one of the main “enemies” of the user experience.
+Users feel lost when everything changes as they move around a web application. Visual consistency makes UIs easier to use, gives an overall impression of professionalism and reliability, and it reduces the slope of the UI learning curve, which is one of the main “enemies” of the user experience.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/consistent1.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-05.png[]
 
 [red]*Don´t*
 
-Changes between screens of the same application are the evidence of a guideline absence.
+Changes between screens of the same application are evidence of missing guidelines.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/consistent2.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-06.png[]
 
 [green]*Do*
 
-Conventions are made to be follow. Preset guidelines ensure uniformity. The usability heuristic “consistency and standards” explains this.
+Conventions are made to be followed. Preset guidelines ensure uniformity. The usability heuristic “consistency and standards” explains this.
 
 Give permanent Feedback
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Feedback is an essential property of a usable product and necessary to avoid confused or frustrated users. It is critical for the user to naturally flow through the UI without a clue of what is happening. Notify that all the actions the user is performing are being processed, made or verified at all times as necessary.
+Feedback is an essential property of a usable product, and necessary to avoid confused or frustrated users. It is critical for the user to naturally flow through the UI without wondering what is happening. Notify the user that all actions he or she is performing are being processed, made, or verified at all times (as necessary).
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/feedback1.png[]
-
-[red]*Don´t*
-
-Users need to have control over the application, if it doesn´t respond as expected, they get impatient quickly and can end up dropping or frustrated.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/feedback2.png[]
-
-[green]*Do*
-
-A spinner can be an effective solution to avoid dissatisfaction among users. Suggestion: use visibility of system status (usability heuristic) to prevent this kind of unresponsiveness issues.
-
-Being friendly always work
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Language is the most important way to communicate between people but communication channels and codes vary a lot when a system is involved. Show that systems are developed by people, avoid technical words or code and be gentle in the way of saying things.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/friendly1.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-07.png[]
 
 [red]*Don´t*
 
-People who are not related to the world of coding does not understand technical language commonly used by developers.
+Users need to have control over the application. If it doesn´t respond as expected, they get impatient quickly and can end up frustrated, or simply quiet.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/friendly2.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-08.png[]
 
 [green]*Do*
 
-Using simple, understandable and kind language will be welcomed and appreciated by the user.Take into account the usability heuristic call `match between system and the real world'.
+A spinner can be an effective solution to avoid dissatisfaction among users. Suggestion: use visibility of system status (usability heuristic) to prevent  these kinds of unresponsiveness issues.
+
+Being friendly always works
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Language is the most important way to communicate between people, but communication channels and codes vary a lot when a system is involved. Show that systems are developed by people; avoid technical words or codes and be gentle in the way things are stated.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-09.png[]
+
+[red]*Don´t*
+
+People who are not involved in the world of coding do not understand technical language commonly used by developers.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-10.png[]
+
+[green]*Do*
+
+Using simple, understandable, and kind language will be welcomed and appreciated by the user. Take into account the usability heuristic called match between system and the real world'.
 
 Page Layout and Structure
 -------------------------
 
 This section will provide the basic guidelines to develop a consistent user interface throughout the whole application. A consistent UI has the benefit of: when designing, removes the need to make the same decision time and again; when coding, enables the use of templates and pre-defined snippets of code. It also gives the possibility to facilitate UI development create a scalable application.
 
+Metrics
+~~~~~~~
+
+Metrics were designed for a 1366x768 screen resolution as a minimun. As the screen resolution increases, the measures are changing accordingly. This metrics have to be respected within the web staff client, this will bring consistency, order and a neat UI design.
+
+1366x768 to 1600x1200
+^^^^^^^^^^^^^^^^^^^^^
+
+These metrics are going to be used for all the screen resolutions between the range of 1366x768 to 1600x1200. Metrics are expressed in "ems". Taking 16px as the default typography size of the body, 1em is going to be equal to 16px, unless otherwise is stated.
+
 Page general structure
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The UI general structure is composed of four main elements:
+The UI general structure is divided in two types of user interfaces according to the information displayed. This difference is defined by the presence or absence of context.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/layout%20template.png[]
+Without context
+~~~~~~~~~~~~~~~
 
-[black]*Static Header*: Is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts or any action regarding to this criteria, located on the right side of this header.
+The UI without context will be composed of five main elements:
 
-image:[image]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure-01.png[]
 
-[black]*Sections Bar*: All the actions that can be performed across the web application are divided and grouped into sections. Those sections are located in this bar present in all the web app screens. By clicking the sections a dropdown menu will be displayed. It can contain as many sections as needed.
+[black]*Program Bar*: Is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts or any action regarding to this criteria, located on the right side of this header.
 
-image:[image]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/programbar-01.png[]
 
-[black]*Action Region*: The information should be presented consistently in all the different screens of the web application, that´s why content (text, form, list, table, etc) will be shown in this limited area. Margins and grids must be respected.
+Metrics
++++++++
 
-image:[image]
+The program bar will have 4em of height and its width will be adapted to the screen resolution.
 
-[black]*Briefly Informative Footer*: Being an open source software project involves another type of perception regarding the product / service provided. A brief description about the license used and the current year to show that is updated will be fine.
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/program%20bar-01.png[]
 
-image:[image]
+Evergreen´s logo will be:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/program%20bar-02.png[]
+
+The user/library button will be as large as the text is; also the distance between the icon and the text is measured and has to be respected:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/program%20bar-03.png[]
+
+[black]*Module Bar*: All the actions that can be performed across the web application are divided and grouped into modules. Those modules are located in this bar present in all the web app screens. By clicking the modules a dropdown menu will be displayed. It can contain as many modules as needed.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20bar-01.png[]
+
+Metrics
++++++++
+
+The module bar will have 4em of height and its width will be adapted to the screen resolution.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20bar-02.png[]
+
+There are some metrics that are important to respect in the module bar structure like the distance between the text and the down arrow and the distance between each module title:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20bar-03.png[]
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20bar-04.png[]
+
+[black]*Action Scans Widget*: This area is intended to a specific current action. A search both from patrons or items is always needed by users, it is a frequent task. This area is created to perform only this kind of search. Users will be able to introduce either barcodes and the widget is going to alone distinguish to what type corresponds.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/widget-01.png[]
+
+By clicking it, a search form would appear:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/widget-03.png[]
+
+Metrics
++++++++
+
+As it is integrated to the module bar, it will have 4em of height:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/widget-02.png[]
+
+[black]*Workspace*: The information should be presented consistently in all the different screens of the web application, that´s why content (text, form, list, table, etc) will be shown in this limited area. Margins and grids must be respected.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/workspace-02.png[]
+
+Metrics
++++++++
+
+Some metrics that need to be respected are the distance between the workspace and the bar above of it and with the footer below of it:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/workspace-01.png[]
+
+[black]*Footer*: Being an open source software project involves another type of perception regarding the product / service provided. A brief description about the license used and the current year to show that is updated.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/footer-01.png[]
+
+Metrics
++++++++
+
+An important comment to do about text s that it will be 14px and will be aligned to the center of the footer:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/footer-02.png[]
+
+With context
+~~~~~~~~~~~~
+
+The general structure is the same with and without context, the only difference is that a new bar is displayed. The UI with context will be composed of six main elements:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure-02.png[]
+
+[black]*Context Bar*: This bar will appear only when an action set could be apply to a specific context. Context is understood as an entity with a given state to which a set of actions can be applied and, in consecuence, modify its state. The actions will be represented with an icon form the FatCow icon set.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/context%20bar-01.png[]
+
+Metrics
++++++++
+
+A detail that should be mentioned is that the size of typography varies respect to the body only in the left section (where the name or the item is mentioned). Every context will be written in 20px.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/context%20bar-02.png[]
+
+The icons region need some explanations:
+
+* The maximum amount of icons (with their respective entries) is six.
+* Icons set must be centered align.
+* The presence of the hamburger icon (in the right side of the context bar) represents that there are more possible actions than the six shown.
+* If the number of actions that can be performed to the context is less than six, the hamburger icon will not be displayed.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/context%20bar-03.png[]
 
 Layout template or grid
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The layout template or grid will be orthogonal. This template will be adapted (scalable) to different screen resolutions.
+The layout template or grid will be orthogonal. This template will be adapted (scalable) to different screen resolutions. With context: 
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-05.png[]
+
+Without context:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-06.png[]
 
 Metrics
-~~~~~~~
++++++++
 
-Metrics will be designed for a 1366x768 screen resolution as a minimun.
+Horizontal margin will be 4em in both sides of the UI.
 
-[black]*1366x768*
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-01.png[]
 
-image:[image]
+The general structure is divided into three main columns. These columns define the location of the content in the workspace. There are secondary baselines that create a smaller area.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-02.png[]
+
+Depending on the presence or absence of context the metrics will vary. With context:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-04.png[]
+
+Without context:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-03.png[]
 
 Popups and dialogues
 ~~~~~~~~~~~~~~~~~~~~
 
-Popups and dialogues are messages that warn of a mistake, require a decision or simply report something. These messages will suddenly appear on the screen to interrupt the task that the user is performing because an answer is needed in that precise moment.
+Popups and dialogues are messages that warn of a mistake, require a decision or simply report something. These messages will suddenly appear on the screen to interrupt the task that the user is performing because an answer is needed in that precise moment. This resource will be composed of a title, a message, some content (forms, checkbox, etc) and one -or more if required- action button.
 
-Types
-^^^^^
+Each alert will have a perimetric shadow to separate it from the content in the screen. It will be center aligned.
 
-This resource will be composed of a title, a message and one (or more if required) action button. There will be four different types:
+There will be five different types. The major difference between tehem will be the title´s background color:
 
 Error message
 ^^^^^^^^^^^^^
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Popups/popups-01.png[]
+When something isn´t going as expected, an error occurs or the information introduced is wrong, an error message popup will be displayed. The title´s background color is wrong red.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-01.png[]
 
 Information message
 ^^^^^^^^^^^^^^^^^^^
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Popups/popups-02.png[]
+The only purpose of this kind of popup is to inform. Its title´s background color will be informative blue.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-02.png[]
 
 Success message
 ^^^^^^^^^^^^^^^
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Popups/popups-03.png[]
+Once the user has performed an action and this has been successfully. Title´s background color: positive green.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-03.png[]
 
 Question message
 ^^^^^^^^^^^^^^^^
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Popups/popups-04.png[]
+Sometimes the system will need a confirmation or a denail from the user to perform a specific action or process. Title´s background color: insecure purple.
 
-Popups metrics
-^^^^^^^^^^^^^^
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-04.png[]
 
-image:[image]
+Action Alert
+^^^^^^^^^^^^
+
+Modal alert will provide additional fuctionality to the system by displaying a popup requiring the user to perform an action in this area, the information will modify some aspect of the context to  which is applied. The title´s background color is active brown.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-08.png[]
+
+Popups metrics and structure
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Metrics apply to all types of popups. Its structure:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-07.png[]
+
+It will have two areas: where the title is placed and the content region:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-06.png[]
 
 Visual Design
 -------------
@@ -179,65 +314,85 @@ Color
 
 This color palette summarizes all the color used across the web application. Each color was selected carefully to work harmoniously between each other. They are also gruped conceptually.
 
-Evergreen's Twins
+Evergreen's Green
 ^^^^^^^^^^^^^^^^^
 
-This duo will be always together making a permanent contrast between them. Ying and Yang are used, for example, in the "sections Bar" or as a gradient in buttons.
+The main color of the project is green. As this is the color of the logo, it will be called Evergreen´s Green. This color will be used in the main menu
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-07.png[]
 
 Prominent Orange
 ^^^^^^^^^^^^^^^^
 
 This orange is used to highlight some UI elements like buttons or titles.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-02.png[]
 
-Wrong Reds
-^^^^^^^^^^
+Wrong Red
+^^^^^^^^^
 
-These reds are used to inform the user that something is wrong.
-The difference between these two reds is:
+This red is used to inform the user that something is wrong.
 
-* [black]*Shy Red:* This red doesn't like to call the too much the attention.
-* [black]*Noisy Red:* This red loves the user's attention.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-08.png[]
 
 Positive Green
 ^^^^^^^^^^^^^^
 
-Positive means that a specific task is achieved as expected or that there is no problem. E.g.: Message mentioning that a change has been successfully saved. 
+Positive means that a specific task is achieved as expected or that there is no problems. 
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-03.png[]
 
 Informative Blue
 ^^^^^^^^^^^^^^^^
 
 This blue is used just to inform something to users.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-06.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-04.png[]
 
 Insecure Purple
 ^^^^^^^^^^^^^^^
 
-When something needs an answer of any kind, insecure Purple appears. Is used in question pupups for example.
+When something needs an answer of any kind, insecure purple appears.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-07.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-05.png[]
+
+Action Brown
+^^^^^^^^^^^^
+
+Color that has to do with performing an action.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-06.png[]
 
 Grey Scale
 ^^^^^^^^^^
 
-These three greys are used to guide users, e.g.: guidance words within forms like 'Last Name, Barcode or Username' in the "Patron Search" form.
+These three greys are used to guide users.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-01.png[]
 
 Typography
 ~~~~~~~~~~
 
-Helvetica Heue
+Roboto is a font extensively tested in many devices. It guarantee legibility, clarity and readability.
+
+Evergreen will use this typography only in two weights: regular and bold. Every text will be written in regular, titles of modules and contexts will be in bold.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/type-02.png[]
+
+As mentioned before (Page Layout and Structure - Metrics), each range of screen resolution will vary according to the proportional increase of the screens. There are going to be three different sizes in a single screen, next is a table showing each size related to the range:
+
+|=======================
+||*1366x768 to 1600x1200*|*1600x1200 to 1920x1080*|*1920x1080 to 2560x1440*
+|General Type size (body)|16px|18px|20px
+|Context Title    |20px|22px|24px
+|Footer    |14px|16px|18px
+|=======================
 
 Iconography
 ~~~~~~~~~~~
 
-Bootstrap Glyphicon Halflings set.
+There are two types of icnons in the web staff client: Bootstrap Glyphicon Halflings set and FatCow Icon set.
+
+http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyphicon Halflings set] will be use in the dropdown menu (Module Bar) to illustrate each possibility within each module.
+
+http://www.fatcow.com/free-icons[FatCow Icon set] will be use in the Context Bar to illustrate each action that can be applied to a particular context.
