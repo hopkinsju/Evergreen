@@ -109,6 +109,8 @@ Metrics were designed for a 1366x768 screen resolution as a minimun. As the scre
 
 These metrics are going to be used for all the screen resolutions between the range of 1366x768 to 1600x1200. Metrics are expressed in "ems". Taking 16px as the default typography size of the body, 1em is going to be equal to 16px, unless otherwise is stated.
 
+There are also two more different sizes of typography in a single UI design. This means that the body typography will determine the UI measures and the size of text within the web staff client, however, there are two different sizes (one in the context bar and the other in the footer) metrics will be maintained based on the typeface size of the body but only change the typeface size. 
+
 Page general structure
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -391,21 +393,10 @@ As mentioned before (Page Layout and Structure - Metrics), each range of screen 
 Type color
 ^^^^^^^^^^^
 
-* When the background color is white: Roboto Normal 400 will be in grey scale, dark grey (#231F20).
+* When the background color is white or a light color: Roboto Normal 400 will be in grey scale, dark grey (#231F20).
 * When the backgrund color is a color:Roboto Normal 400 will be in white (#FFFFFF).
-* Exceptions in "UI Elements (controls)".
-* Exceptions in "UI Elements (controls)".
 
 You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fonts]
-
-Type Scale
-^^^^^^^^^^
-
-* Unit: As a convention one em is equivalent to 16px.
-* Variety of sizes provides an order in UIs. Too many different sizes can end up in a cluttered UI,though.
-* Sizes set allowed for the Evergreen´s web application:
-
-image:[image]
 
 Iconography
 ~~~~~~~~~~~
