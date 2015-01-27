@@ -114,7 +114,7 @@ There are also two more different sizes of typography in a single UI design. Thi
 Page general structure
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The UI general structure is divided in two types of user interfaces according to the information displayed. This difference is defined by the presence or absence of context.
+The UI general structure is divided in two types of user interfaces according to the information displayed. This difference is defined by the presence or absence of context. Context is understood as an entity with a given state to which a set of actions can be applied and, in consecuence, modify its state.
 
 Without context
 ~~~~~~~~~~~~~~~
@@ -203,7 +203,7 @@ The general structure is the same with and without context, the only difference 
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure-02.png[]
 
-[black]*Context Bar*: This bar will appear only when an action set could be apply to a specific context. Context is understood as an entity with a given state to which a set of actions can be applied and, in consecuence, modify its state. The actions will be represented with an icon form the FatCow icon set.
+[black]*Context Bar*: This bar will appear only when an action set could be apply to a specific context. The actions will be represented with an icon form the FatCow icon set.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/context%20bar-01.png[]
 
