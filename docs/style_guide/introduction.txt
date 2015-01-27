@@ -174,6 +174,17 @@ As it is integrated to the module bar, it will have 4em of height:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/widget-02.png[]
 
+[black]*Module Title Bar*: To locate the user is precise to have each module title in sight. This bar will contain only the module title in centered alignment.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20title%20bar-01.png[]
+
+Metrics
++++++++
+
+Title´s font size will be in 20px.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20title%20bar-02.png[]
+
 [black]*Workspace*: The information should be presented consistently in all the different screens of the web application, that´s why content (text, form, list, table, etc) will be shown in this limited area. Margins and grids must be respected.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/workspace-02.png[]
