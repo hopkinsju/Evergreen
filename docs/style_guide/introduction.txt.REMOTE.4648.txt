@@ -1,0 +1,271 @@
+Evergreen UI Style Guide
+------------------------
+Products are made to be used. There is no reason to add effort to develop, test and document a product that won't be as much used as expected. In software products the user experie 
+
+* The purpose of this UI Style guide is to create a basis to have a consistent look and feel of the complete Evergreen´s web staff client.
+* Think always according to user-center design.
+* It will be mainly used by developers without limiting anyone who needs to consult it.
+
+Design Principles
+-----------------
+
+Be Simple
+~~~~~~~~~
+
+Simplicity on tasks, white spaces and an intuitive navigation are the perfect combination that users expect from a web application. Reducing extra effort avoid frustration and early abandonment.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/simple1.png[]
+
+[red]*Don´t*
+
+UIs become cluttered and complex while much data is displayed, it can produce confusion to the users and can make the application more difficult to learn.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/simple2.png[]
+
+[green]*Do*
+
+Design Patterns as Progressive and Staged Disclosure can be applied. Focus is always on users effortless.
+
+Be Concise
+~~~~~~~~~~
+
+Users need their tasks to be done quickly and effectively when needed. Give brief and precise instructions so users do not lose time with completing unnecessary information or thinking too much how to proceed.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/concise1.png[]
+
+[red]*Don´t*
+
+The user is discouraged when see that too much information must be completed.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/concise2.png[]
+
+[green]*Do*
+
+Account Registration Design Pattern can be applied. The less information, more satisfying the action will be.
+
+Be Consistent
+~~~~~~~~~~~~~
+
+Users feel lost when everything changes as they move around the web application. Visual consistency makes UIs easier to use, gives an overall impression of professionalism and reliability and it reduces the slope of the UI learning curve which is one of the main “enemies” of the user experience.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/consistent1.png[]
+
+[red]*Don´t*
+
+Changes between screens of the same application are the evidence of a guideline absence.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/consistent2.png[]
+
+[green]*Do*
+
+Conventions are made to be follow. Preset guidelines ensure uniformity. The usability heuristic “consistency and standards” explains this.
+
+Give permanent Feedback
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Feedback is an essential property of a usable product and necessary to avoid confused or frustrated users. It is critical for the user to naturally flow through the UI without a clue of what is happening. Notify that all the actions the user is performing are being processed, made or verified at all times as necessary.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/feedback1.png[]
+
+[red]*Don´t*
+
+Users need to have control over the application, if it doesn´t respond as expected, they get impatient quickly and can end up dropping or frustrated.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/feedback2.png[]
+
+[green]*Do*
+
+A spinner can be an effective solution to avoid dissatisfaction among users. Suggestion: use visibility of system status (usability heuristic) to prevent this kind of unresponsiveness issues.
+
+Being friendly always work
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Language is the most important way to communicate between people but communication channels and codes vary a lot when a system is involved. Show that systems are developed by people, avoid technical words or code and be gentle in the way of saying things.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/friendly1.png[]
+
+[red]*Don´t*
+
+People who are not related to the world of coding does not understand technical language commonly used by developers.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Principles/1366x768/friendly2.png[]
+
+[green]*Do*
+
+Using simple, understandable and kind language will be welcomed and appreciated by the user.Take into account the usability heuristic call `match between system and the real world'.
+
+Page Layout and Structure
+-------------------------
+
+This section will provide the basic guidelines to develop a consistent user interface throughout the whole application. A consistent UI has the benefit of: when designing, removes the need to make the same decision time and again; when coding, enables the use of templates and pre-defined snippets of code. It also gives the possibility to facilitate UI development create a scalable application.
+
+Page general structure
+~~~~~~~~~~~~~~~~~~~~~~
+
+The UI general structure is composed of four main elements:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/layout%20template.png[]
+
+[black]*Static Header*: Is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts or any action regarding to this criteria, located on the right side of this header.
+
+image:[image]
+
+[black]*Sections Bar*: All the actions that can be performed across the web application are divided and grouped into sections. Those sections are located in this bar present in all the web app screens. By clicking the sections a dropdown menu will be displayed. It can contain as many sections as needed.
+
+image:[image]
+
+[black]*Action Region*: The information should be presented consistently in all the different screens of the web application, that´s why content (text, form, list, table, etc) will be shown in this limited area. Margins and grids must be respected.
+
+image:[image]
+
+[black]*Briefly Informative Footer*: Being an open source software project involves another type of perception regarding the product / service provided. A brief description about the license used and the current year to show that is updated will be fine.
+
+image:[image]
+
+Layout template or grid
+~~~~~~~~~~~~~~~~~~~~~~~
+
+The layout template or grid will be orthogonal. This template will be adapted (scalable) to different screen resolutions.
+
+Metrics
+~~~~~~~
+
+Metrics will be designed for a 1366x768 screen resolution as a minimun.
+
+[black]*1366x768*
+
+image:[image]
+
+Popups and dialogues
+~~~~~~~~~~~~~~~~~~~~
+
+Popups and dialogues are messages that warn of a mistake, require a decision or simply report something. These messages will suddenly appear on the screen to interrupt the task that the user is performing because an answer is needed in that precise moment.
+
+Types
+^^^^^
+
+This resource will be composed of a title, a message and one (or more if required) action button. There will be four different types:
+
+Error message
+^^^^^^^^^^^^^
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Popups/popups-01.png[]
+
+Information message
+^^^^^^^^^^^^^^^^^^^
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Popups/popups-02.png[]
+
+Success message
+^^^^^^^^^^^^^^^
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Popups/popups-03.png[]
+
+Question message
+^^^^^^^^^^^^^^^^
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Popups/popups-04.png[]
+
+Popups metrics
+^^^^^^^^^^^^^^
+
+image:[image]
+
+Visual Design
+-------------
+
+Color
+~~~~~
+
+This color palette summarizes all the color used across the web application. Each color was selected carefully to work harmoniously between each other. They are also gruped conceptually.
+
+Evergreen's Twins
+^^^^^^^^^^^^^^^^^
+
+This duo will be always together making a permanent contrast between them. Ying and Yang are used, for example, in the "sections Bar" or as a gradient in buttons.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-01.png[]
+
+Prominent Orange
+^^^^^^^^^^^^^^^^
+
+This orange is used to highlight some UI elements like buttons or titles.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-04.png[]
+
+Wrong Reds
+^^^^^^^^^^
+
+These reds are used to inform the user that something is wrong.
+The difference between these two reds is:
+
+* [black]*Shy Red:* This red doesn't like to call the too much the attention.
+* [black]*Noisy Red:* This red loves the user's attention.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-02.png[]
+
+Positive Green
+^^^^^^^^^^^^^^
+
+Positive means that a specific task is achieved as expected or that there is no problem. E.g.: Message mentioning that a change has been successfully saved. 
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-05.png[]
+
+Informative Blue
+^^^^^^^^^^^^^^^^
+
+This blue is used just to inform something to users.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-06.png[]
+
+Insecure Purple
+^^^^^^^^^^^^^^^
+
+When something needs an answer of any kind, insecure Purple appears. Is used in question pupups for example.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-07.png[]
+
+Grey Scale
+^^^^^^^^^^
+
+These three greys are used to guide users, e.g.: guidance words within forms like 'Last Name, Barcode or Username' in the "Patron Search" form.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/color/color%20palette-03.png[]
+
+Typography
+~~~~~~~~~~
+
+image:[image]
+
+* Every text will be written in Roboto Normal 400.
+* The variables that are going to be used are Roboto Regular and Roboto Bold.
+    - Roboto Regular will be used for every text (a single word or phrase or paragraph).
+    - Roboto Bold will be used to enphasize a text (a single word or phrase).
+
+You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fonts]
+
+Type color
+^^^^^^^^^^^
+
+* When the background color is white: Roboto Normal 400 will be in grey scale, dark grey (#231F20).
+* When the backgrund color is a color:Roboto Normal 400 will be in white (#FFFFFF).
+* Exceptions in "UI Elements (controls)".
+
+Type Scale
+^^^^^^^^^^
+
+* Unit: As a convention one em is equivalent to 16px.
+* Variety of sizes provides an order in UIs. Too many different sizes can end up in a cluttered UI,though.
+* Sizes set allowed for the Evergreen´s web application:
+
+image:[image]
+
+Iconography
+~~~~~~~~~~~
+
+Icons can be used as an illustrative shortcut to some actions.
+
+http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyphicon Halflings set]
+
+http://www.fatcow.com/free-icons[FatCow.com]
+
