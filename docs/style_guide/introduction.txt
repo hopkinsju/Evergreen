@@ -418,3 +418,61 @@ http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyph
 
 http://www.fatcow.com/free-icons[FatCow Icon set] will be use in the Context Bar to illustrate each action that can be applied to a particular context.
 
+UI Elements (controls)
+----------------------
+
+In a single UI design is always a wide variety of components like "Buttons, Lists, Forms, Menus, Tabs, etc".
+
+By giving them a guideline to follow, designers and developers will achieve consistency.
+
+Buttons
+~~~~~~~
+
+They are a text or image that illustrate an action and invite the user to click it. There are three types of buttons:
+
+* Primary Button: This button will be the most used. Alone or accompanied by other type of button.
+* Accent Button: Used jointly with the primary button to create a noticeable difference between buttons, therefore, both options are important, is one or the other.
+* Natural Button: It is combined with the other two type of buttons. The action it performs is not critical, it referes to a minor action.
+
+Specs
+^^^^^
+
+[black]*Primary buttons will be:*
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px (1em).
+    - Font color: white (#FFFFFF).
+* Background
+    - Rectangle with a 5px corner radius.
+    - Radial Gradient from #00985F to #008D58.
+* Margins
+
+image:[]
+
+[black]*Accent buttons will be:*
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px (1em).
+    - Font color: white (#FFFFFF).
+* Background
+    - Rectangle with a 5px corner radius.
+    - Radial Gradient from #DE8926 to #D48324.
+* Margins
+
+image:[]
+
+[black]*Natural buttons will be:*
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px (1em).
+    - Font color: Dark gray (#231F20).
+* Background
+    - Rectangle with a 5px corner radius in mid gray (#939598).
+    - No Gradient.
+	- White background.
+* Margins
+
+image:[]
