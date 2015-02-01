@@ -445,7 +445,8 @@ Specs
     - Font color: white (#FFFFFF).
 * Background
     - Rectangle with a 5px corner radius.
-    - Radial Gradient from #00985F to #008D58.
+    - Lineal Gradient from #00985F to #008D58.
+	- Light will be always at the top of the button.
 * Margins
 
 image:[]
@@ -458,7 +459,8 @@ image:[]
     - Font color: white (#FFFFFF).
 * Background
     - Rectangle with a 5px corner radius.
-    - Radial Gradient from #DE8926 to #D48324.
+    - Lineal Gradient from #DE8926 to #D48324.
+	- Light will be always at the top of the button.
 * Margins
 
 image:[]
