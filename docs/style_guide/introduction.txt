@@ -447,9 +447,8 @@ Specs
     - Rectangle with a 5px corner radius.
     - Lineal Gradient from #00985F to #008D58.
 	- Light will be always at the top of the button.
-* Margins
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-04.png[]
 
 [black]*Accent buttons will be:*
 
@@ -461,9 +460,8 @@ image:[]
     - Rectangle with a 5px corner radius.
     - Lineal Gradient from #DE8926 to #D48324.
 	- Light will be always at the top of the button.
-* Margins
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-01.png[]
 
 [black]*Natural buttons will be:*
 
@@ -475,9 +473,19 @@ image:[]
     - Rectangle with a 5px corner radius in mid gray (#939598).
     - No Gradient.
 	- White background.
-* Margins
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-05.png[]
+
+Metrics
+^^^^^^^
+
+Any type of buttons will have a fixed height, while the width will vary along the word or icon containing.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-02.png[]
+
+As said, text will be 16px in a center alignment. Margins round the whole text will be 1em.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-03.png[]
 
 Tables
 ~~~~~~
@@ -489,15 +497,15 @@ Structure
 
 Tables are composed by three main areas:
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-03.png[]
 
 * [black]*Table Bar:* A bar that gives the possibility of adapting the manner in which the information is displayed according to the user's need. It will show a title, to locate the user; a Page navigator, Rows shown and Visible page to give freedom to visualize the information; and Action menu, to change the default table view according to the user wishes and some other options that can be made on or from the table.
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-04.png[]
 
 * [black]*Columns Bar:* This section will display the a "Check all results" checkbox to implement a specific action - or set of actions- on all the results retrieved; a "Number of result" column to facilitate the observation of information and the different parts in which the result is going to be separate in.
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-05.png[]
 
 * [black]*Table Results:* Where all the results retrieved are exposed. The information will be presented according to the default or options selected by the user.
 
@@ -506,16 +514,16 @@ Metrics
 
 Table bar: Height of 8,75em. Informative blue background color. Each icon used in this bar will have width =1em.
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-06.png[]
 
 Columns Bar: Height of 8,75em.
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-07.png[]
 
 The amount of columns will be always 8 (without the number of column and the checkbox columns):
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-08.png[]
 
 Table Results: Each row will have 8,75em of height. As a visual detail a row of through should have an informative blue background color with a 10% transparency to help the visualization of the information.
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-09.png[]
