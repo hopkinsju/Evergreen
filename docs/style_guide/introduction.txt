@@ -478,3 +478,44 @@ image:[]
 * Margins
 
 image:[]
+
+Tables
+~~~~~~
+
+This UI element is one of the most used by the Evergreen web staff client. It is used to retrieve the required information and show all the results of a search orderly.
+
+Structure
+^^^^^^^^^
+
+Tables are composed by three main areas:
+
+image:[]
+
+* [black]*Table Bar:* A bar that gives the possibility of adapting the manner in which the information is displayed according to the user's need. It will show a title, to locate the user; a Page navigator, Rows shown and Visible page to give freedom to visualize the information; and Action menu, to change the default table view according to the user wishes and some other options that can be made on or from the table.
+
+image:[]
+
+* [black]*Columns Bar:* This section will display the a "Check all results" checkbox to implement a specific action - or set of actions- on all the results retrieved; a "Number of result" column to facilitate the observation of information and the different parts in which the result is going to be separate in.
+
+image:[]
+
+* [black]*Table Results:* Where all the results retrieved are exposed. The information will be presented according to the default or options selected by the user.
+
+Metrics
+^^^^^^^
+
+Table bar: Height of 8,75em. Informative blue background color. Each icon used in this bar will have width =1em.
+
+image:[]
+
+Columns Bar: Height of 8,75em.
+
+image:[]
+
+The amount of columns will be always 8 (without the number of column and the checkbox columns):
+
+image:[]
+
+Table Results: Each row will have 8,75em of height. As a visual detail a row of through should have an informative blue background color with a 10% transparency to help the visualization of the information.
+
+image:[]
