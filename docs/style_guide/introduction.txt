@@ -594,8 +594,21 @@ Specs
     - Width=1em.
     - Color: dark gray (#231F20).
 
-Pickers
-^^^^^^^
+Date Pickers
+^^^^^^^^^^^^
+
+Pickers allow the user to select a date. The information is consistently formatted and input into the system.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/pickers-01.png[]
+
+It will be composed by a calendar of the current month and a toggle to select different months.
+
+Metrics
++++++++
+
+The picker itself will be 1em x 1em.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/pickers-02.png[]
 
 Toggles
 ^^^^^^^
