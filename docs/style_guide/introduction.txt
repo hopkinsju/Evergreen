@@ -665,11 +665,11 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 Metrics
 +++++++
 
-Table bar: Height of 8,75em. Informative blue background color. Each icon used in this bar will have width =1em.
+Table bar: Height of 2,5em. Informative blue background color. Each icon used in this bar will have width=1em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-06.png[]
 
-Columns Bar: Height of 8,75em.
+Columns Bar: Height of 2,5em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-07.png[]
 
@@ -677,7 +677,7 @@ The amount of columns will be always 8 (without the number of column and the che
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-08.png[]
 
-Table Results: Each row will have 8,75em of height. As a visual detail a row of through should have an informative blue background color with a 10% transparency to help the visualization of the information.
+Table Results: Each row will have 2,5em of height. As a visual detail a row of through should have an informative blue background color with a 10% transparency to help the visualization of the information.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-09.png[]
 
