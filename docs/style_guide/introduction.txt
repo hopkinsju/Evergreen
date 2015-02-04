@@ -418,15 +418,24 @@ http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyph
 
 http://www.fatcow.com/free-icons[FatCow Icon set] will be use in the Context Bar to illustrate each action that can be applied to a particular context.
 
-UI Elements (controls)
-----------------------
+UI Elements
+-----------
 
 In a single UI design is always a wide variety of components like "Buttons, Lists, Forms, Menus, Tabs, etc".
 
-By giving them a guideline to follow, designers and developers will achieve consistency.
+By giving them a guideline to follow, designers and developers will achieve consistency. These elements are divided in:
+
+* Input Controls
+* Navigational Components
+* Informational Components
+
+Users have become familiar with elements acting in a certain way, so choosing to adopt those elements when appropriate will help with task completion, efficiency, and satisfaction.
+
+Input Controls
+~~~~~~~~~~~~~~
 
 Buttons
-~~~~~~~
+^^^^^^^
 
 They are a text or image that illustrate an action and invite the user to click it. There are three types of buttons:
 
@@ -435,7 +444,7 @@ They are a text or image that illustrate an action and invite the user to click 
 * Natural Button: It is combined with the other two type of buttons. The action it performs is not critical, it referes to a minor action.
 
 Specs
-^^^^^
++++++
 
 [black]*Primary buttons will be:*
 
@@ -477,23 +486,154 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-05.png[]
 
 Metrics
-^^^^^^^
++++++++
 
 Any type of buttons will have a fixed height, while the width will vary along the word or icon containing.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-02.png[]
 
-As said, text will be 16px in a center alignment. Margins round the whole text will be 1em.
+As said, text will be 16px in a center alignment. Margins around the whole text will be 1em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-03.png[]
 
+State
++++++
+
+Not pressed:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-06.png[]
+
+When pressing:
+
+Gradient will be eliminate, so the background color will change to:
+
+* Primary Button: #007749
+* Accent Button: #BD751E
+* Tertiary Button: #E6E7E8
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-07.png[]
+
+Checkboxes
+^^^^^^^^^^
+
+Allows the user to select one or more options from a set. Checkboxes are going to be located:
+
+* At the right side of a word if it is the only option that the user can check
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-01.png[]
+
+* At the left side of a set of options if the user can perform a multiple selection
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-02.png[]
+
+* Alone. They will be visually separated from the text, however, they correspond to a specific option.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-05.png[]
+
+It is going to be used the default input type="checkbox" to apply this element in a UI. Every checkbox will be located 1em from the word (left or right side) or in a center alignment.
+
+State
++++++
+
+Unchecked:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-03.png[]
+
+Checked:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-04.png[]
+
+Expand/collapse
+^^^^^^^^^^^^^^^
+
+When there is lack of space or there is information that can be hidden momentarily to perform other actions but should be easily accessible, this resource is used. This control is illustrated by an icon from the Bootstrap Glyphicon Halflings set:
+
+* glyphicon-resize-full:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/expand%20collapse-01.png[]
+
+* glyphicon-resize-small:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/expand%20collapse-02.png[]
+
+The icon will have 1em of width. Its color will vary depending on the backgruond color: if the background color is white or a light color, use #231F20 (dark gray); if the backgrund color is a color, use #FFFFFF (white).
+
+Dropdown Menu
+^^^^^^^^^^^^^
+
+Dropdown menu allow the user to select an item at a time and perform different activities. It is also a way to save space. There are two types:
+
+* With icons: Used when the items involves primary actions. These actions will imply modifications on a specific element permanently or a redirection to different parts of the web site.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-01.png[]
+
+* Without icons: To display secondary actions. Actions that can be applied in a specific element but will not modify the content on the screen.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-02.png[]
+
+Metrics
++++++++
+
+There are no specific measures. They will depend on the content of each dropdown menu. But metrics are determine with margins between objects:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-03.png[]
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-04.png[]
+
+Specs
++++++
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px (1em).
+    - Font color: Dark gray (#231F20).
+* Background
+    - White background.
+    - 1px Shadow around the rectangle.
+* Icons (if needed)
+    - Width=1em.
+    - Color: dark gray (#231F20).
+
+Pickers
+^^^^^^^
+
+Toggles
+^^^^^^^
+
+Text fields
+^^^^^^^^^^^
+
+Navigational Components
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Search Field
+^^^^^^^^^^^^^
+
+Tabs
+^^^^
+
+Network Indicator Activity
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Informational Components
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Tool Tips
+^^^^^^^^^
+
+Dividers
+^^^^^^^^
+
+Subheaders
+^^^^^^^^^^
+
 Tables
-~~~~~~
+^^^^^^
 
 This UI element is one of the most used by the Evergreen web staff client. It is used to retrieve the required information and show all the results of a search orderly.
 
 Structure
-^^^^^^^^^
++++++++++
 
 Tables are composed by three main areas:
 
@@ -510,7 +650,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 * [black]*Table Results:* Where all the results retrieved are exposed. The information will be presented according to the default or options selected by the user.
 
 Metrics
-^^^^^^^
++++++++
 
 Table bar: Height of 8,75em. Informative blue background color. Each icon used in this bar will have width =1em.
 
@@ -527,3 +667,4 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 Table Results: Each row will have 8,75em of height. As a visual detail a row of through should have an informative blue background color with a 10% transparency to help the visualization of the information.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-09.png[]
+
