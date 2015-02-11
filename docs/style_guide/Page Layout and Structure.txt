@@ -1,27 +1,27 @@
-Page Layout and Structure
--------------------------
+2. Page Layout and Structure
+----------------------------
 
 This section will provide the basic guidelines to develop a consistent user interface throughout the whole application. A consistent UI has the benefit of: when designing, removes the need to make the same decision time and again; when coding, enables the use of templates and pre-defined snippets of code. It also gives the possibility to facilitate UI development create a scalable application.
 
-Metrics
-~~~~~~~
+2.1 Metrics
+~~~~~~~~~~~
 
 Metrics were designed for a 1366x768 screen resolution as a minimun. As the screen resolution increases, the measures are changing accordingly. This metrics have to be respected within the web staff client, this will bring consistency, order and a neat UI design.
 
-1366x768 to 1600x1200
-^^^^^^^^^^^^^^^^^^^^^
+2.1.1 1366x768 to 1600x1200
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 These metrics are going to be used for all the screen resolutions between the range of 1366x768 to 1600x1200. Metrics are expressed in "ems". Taking 16px as the default typography size of the body, 1em is going to be equal to 16px, unless otherwise is stated.
 
 There are also two more different sizes of typography in a single UI design. This means that the body typography will determine the UI measures and the size of text within the web staff client, however, there are two different sizes (one in the context bar and the other in the footer) metrics will be maintained based on the typeface size of the body but only change the typeface size. 
 
-Page general structure
-~~~~~~~~~~~~~~~~~~~~~~
+2.2 Page general structure
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The UI general structure is divided in two types of user interfaces according to the information displayed. This difference is defined by the presence or absence of context. Context is understood as an entity with a given state to which a set of actions can be applied and, in consecuence, modify its state.
 
-Without context
-~~~~~~~~~~~~~~~
+2.2.1 Without context
+^^^^^^^^^^^^^^^^^^^^^
 
 The UI without context will be composed of five main elements:
 
@@ -111,8 +111,8 @@ An important comment to do about text s that it will be 14px and will be aligned
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/footer-02.png[]
 
-With context
-~~~~~~~~~~~~
+2.2.2 With context
+^^^^^^^^^^^^^^^^^^
 
 The general structure is the same with and without context, the only difference is that a new bar is displayed. The UI with context will be composed of six main elements:
 
@@ -138,8 +138,8 @@ The icons region need some explanations:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/context%20bar-03.png[]
 
-Layout template or grid
-~~~~~~~~~~~~~~~~~~~~~~~
+2.3 Layout template or grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The layout template or grid will be orthogonal. This template will be adapted (scalable) to different screen resolutions. With context: 
 
@@ -149,8 +149,8 @@ Without context:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-06.png[]
 
-Metrics
-+++++++
+2.3.1 Metrics
+^^^^^^^^^^^^^
 
 Horizontal margin will be 4em in both sides of the UI.
 
@@ -168,8 +168,8 @@ Without context:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-03.png[]
 
-Popups and dialogues
-~~~~~~~~~~~~~~~~~~~~
+2.4 Popups and dialogues
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Popups and dialogues are messages that warn of a mistake, require a decision or simply report something. These messages will suddenly appear on the screen to interrupt the task that the user is performing because an answer is needed in that precise moment. This resource will be composed of a title, a message, some content (forms, checkbox, etc) and one -or more if required- action button.
 
@@ -177,43 +177,43 @@ Each alert will have a perimetric shadow to separate it from the content in the 
 
 There will be five different types. The major difference between tehem will be the title´s background color:
 
-Error message
-^^^^^^^^^^^^^
+2.4.1 Error message
+^^^^^^^^^^^^^^^^^^^
 
 When something isn´t going as expected, an error occurs or the information introduced is wrong, an error message popup will be displayed. The title´s background color is wrong red.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-01.png[]
 
-Information message
-^^^^^^^^^^^^^^^^^^^
+2.4.2 Information message
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The only purpose of this kind of popup is to inform. Its title´s background color will be informative blue.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-02.png[]
 
-Success message
-^^^^^^^^^^^^^^^
+2.4.3 Success message
+^^^^^^^^^^^^^^^^^^^^^^
 
 Once the user has performed an action and this has been successfully. Title´s background color: positive green.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-03.png[]
 
-Question message
-^^^^^^^^^^^^^^^^
+2.4.4 Question message
+^^^^^^^^^^^^^^^^^^^^^^
 
 Sometimes the system will need a confirmation or a denail from the user to perform a specific action or process. Title´s background color: insecure purple.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-04.png[]
 
-Action Alert
-^^^^^^^^^^^^
+2.4.5 Action Alert
+^^^^^^^^^^^^^^^^^^
 
 Modal alert will provide additional fuctionality to the system by displaying a popup requiring the user to perform an action in this area, the information will modify some aspect of the context to  which is applied. The title´s background color is active brown.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-08.png[]
 
-Popups metrics and structure
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2.4.6 Popups metrics and structure
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Metrics apply to all types of popups. Its structure:
 

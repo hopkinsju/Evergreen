@@ -1,8 +1,8 @@
-Design Principles
------------------
+1. Design Principles
+--------------------
 
-Be Simple
-~~~~~~~~~
+1.1 Be Simple
+~~~~~~~~~~~~~
 
 Simplicity on tasks, white spaces and an intuitive navigation are the perfect combination that users expect from a web application. Reducing extra effort avoid frustration and early abandonment.
 
@@ -18,8 +18,8 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Des
 
 Design Patterns as Progressive and Staged Disclosure can be applied. Focus is always on users effortless.
 
-Be Concise
-~~~~~~~~~~
+1.2 Be Concise
+~~~~~~~~~~~~~~
 
 Users need their tasks to be done quickly and effectively when needed. Give brief and precise instructions so users do not lose time with completing unnecessary information or thinking too much how to proceed.
 
@@ -35,8 +35,8 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Des
 
 Account Registration Design Pattern can be applied. The less information, more satisfying the action will be.
 
-Be Consistent
-~~~~~~~~~~~~~
+1.3 Be Consistent
+~~~~~~~~~~~~~~~~~
 
 Users feel lost when everything changes as they move around the web application. Visual consistency makes UIs easier to use, gives an overall impression of professionalism and reliability and it reduces the slope of the UI learning curve which is one of the main “enemies” of the user experience.
 
@@ -52,8 +52,8 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Des
 
 Conventions are made to be follow. Preset guidelines ensure uniformity. The usability heuristic “consistency and standards” explains this.
 
-Give permanent Feedback
-~~~~~~~~~~~~~~~~~~~~~~~
+1.4 Give permanent Feedback
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Feedback is an essential property of a usable product and necessary to avoid confused or frustrated users. It is critical for the user to naturally flow through the UI without a clue of what is happening. Notify that all the actions the user is performing are being processed, made or verified at all times as necessary.
 
@@ -69,8 +69,8 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Des
 
 A spinner can be an effective solution to avoid dissatisfaction among users. Suggestion: use visibility of system status (usability heuristic) to prevent this kind of unresponsiveness issues.
 
-Being friendly always work
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.5 Being friendly always works
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Language is the most important way to communicate between people but communication channels and codes vary a lot when a system is involved. Show that systems are developed by people, avoid technical words or code and be gentle in the way of saying things.
 
