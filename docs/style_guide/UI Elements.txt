@@ -1,0 +1,517 @@
+UI Elements
+-----------
+
+In a single UI design is always a wide variety of components like "Buttons, Lists, Forms, Menus, Tabs, etc".
+
+By giving them a guideline to follow, designers and developers will achieve consistency. These elements are divided in:
+
+* Input Controls: These elements involve data input, modifications and call to action.
+* Navigational Components: Elements that help the user to locate and understand the path between the different user interfaces of the application.
+* Informational Components: Enable the organization and clarity of the information provided in the screens.
+
+Users have become familiar with elements acting in a certain way, so choosing to adopt those elements when appropriate will help with task completion, efficiency, and satisfaction.
+
+Input Controls
+~~~~~~~~~~~~~~
+
+Buttons
+^^^^^^^
+
+They are a text or image that illustrate an action and invite the user to click it. There are three types of buttons:
+
+* Primary Button: This button will be the most used. Alone or accompanied by other type of button.
+* Accent Button: Used jointly with the primary button to create a noticeable difference between buttons, therefore, both options are important, is one or the other.
+* Natural Button: It is combined with the other two type of buttons. The action it performs is not critical, it referes to a minor action.
+
+Buttons of any type can contain only text, only an icon (Bootstrap Glyphicon Halflings set) or both.
+
+Specs
++++++
+
+[black]*Primary buttons will be:*
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px (1em).
+    - Font color: white (#FFFFFF).
+* Background
+    - Rectangle with a 5px corner radius.
+    - Lineal Gradient from #00985F to #008D58.
+	- Light will be always at the top of the button.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-04.png[]
+
+[black]*Accent buttons will be:*
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px (1em).
+    - Font color: white (#FFFFFF).
+* Background
+    - Rectangle with a 5px corner radius.
+    - Lineal Gradient from #DE8926 to #D48324.
+	- Light will be always at the top of the button.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-01.png[]
+
+[black]*Natural buttons will be:*
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px (1em).
+    - Font color: Dark gray (#231F20).
+* Background
+    - Rectangle with a 5px corner radius in mid gray (#939598).
+    - No Gradient.
+	- White background.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-05.png[]
+
+Metrics
++++++++
+
+Any type of buttons will have a fixed height, while the width will vary along the word or icon containing.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-02.png[]
+
+As said, text will be 16px in a center alignment. Margins around the whole text will be 1em.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-03.png[]
+
+If the button is a combination of text and an icon:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-08.png[]
+
+If the button contains only an icon:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-09.png[]
+
+Distance between buttons:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-10.png[]
+
+State
++++++
+
+Not pressed:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-06.png[]
+
+When pressing:
+
+Gradient will be eliminate, so the background color will change to:
+
+* Primary Button: #007749
+* Accent Button: #BD751E
+* Tertiary Button: #E6E7E8
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/buttons-07.png[]
+
+Checkboxes
+^^^^^^^^^^
+
+Allows the user to select one or more options from a set. Checkboxes are going to be located:
+
+* At the right side of a word if it is the only option that the user can check
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-01.png[]
+
+* At the left side of a set of options if the user can perform a multiple selection
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-02.png[]
+
+* Alone. They will be visually separated from the text, however, they correspond to a specific option.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-05.png[]
+
+It is going to be used the default input type="checkbox" to apply this element in a UI. Every checkbox will be located 1em from the word (left or right side) or in a center alignment.
+
+State
++++++
+
+Unchecked:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-03.png[]
+
+Checked:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/checkbox-04.png[]
+
+Expand/collapse
+^^^^^^^^^^^^^^^
+
+When there is lack of space or there is information that can be hidden momentarily to perform other actions but should be easily accessible, this resource is used. This control is illustrated by an icon from the Bootstrap Glyphicon Halflings set:
+
+* glyphicon-resize-full:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/expand%20collapse-01.png[]
+
+* glyphicon-resize-small:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/expand%20collapse-02.png[]
+
+The icon will have 1em of width. Its color will vary depending on the backgruond color: if the background color is white or a light color, use #231F20 (dark gray); if the backgrund color is a color, use #FFFFFF (white).
+
+Dropdown Menu
+^^^^^^^^^^^^^
+
+Dropdown menu allow the user to select an item at a time and perform different activities. It is also a way to save space. There are two types:
+
+* With icons: Used when the items involves primary actions. These actions will imply modifications on a specific element permanently or a redirection to different parts of the web site.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-01.png[]
+
+* Without icons: To display secondary actions. Actions that can be applied in a specific element but will not modify the content on the screen.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-02.png[]
+
+Metrics
++++++++
+
+There are no specific measures. They will depend on the content of each dropdown menu. But metrics are determine with margins between objects:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-03.png[]
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-04.png[]
+
+Specs
++++++
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px (1em).
+    - Font color: Dark gray (#231F20).
+* Background
+    - White background.
+    - 1px Shadow around the rectangle.
+* Icons (if needed)
+    - Width=1em.
+    - Color: dark gray (#231F20).
+
+Date Pickers
+^^^^^^^^^^^^
+
+Pickers allow the user to select a date. The information is consistently formatted and input into the system.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/pickers-01.png[]
+
+It will be composed by a calendar of the current month and a toggle to select different months.
+
+Metrics
++++++++
+
+The picker itself will measure:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/pickers-03.png[]
+
+In its context:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/pickers-02.png[]
+
+Toggles
+^^^^^^^^
+
+Toggles allow the user to change between some options one by one. The arrow pointing to the left symbolizes going backwards; the arrow pointing to the right represents going forwards.
+
+Metrics
++++++++
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/toggles-01.png[]
+
+Each arrow will be center aligned.It will measure:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/toggles-02.png[]
+
+Text fields
+^^^^^^^^^^^
+
+Text fields allow users to enter text.  It can allow either a single line or multiple lines of text. These elements can also work as a dropdown menu in case it is necessary.
+
+Specs
++++++
+
+* Font
+    - Roboto Regular.
+    - Font size: 14px.
+    - Font color: Light gray (# BCBEC0).
+* Background
+    - Rectangle with a 5px corner radius in dark gray (# 231F20).
+    - No Gradient.
+	- White background.
+* Icon (arrow)
+    - Width=1em.
+    - Color: dark gray (#231F20).
+
+Metrics
++++++++
+
+[black]*Single line:*
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-01.png[]
+
+Text fields with a single line would have a helping text to guide the user to enter the correct information in them. The text will be 1em from the left border:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-03.png[]
+
+[black]*Multiple lines:*
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-02.png[]
+
+These metrics are defined by default. The text field would have the possibility of resize it according to the user needs (represented in the bottom right corner).
+
+[black]*Dropdown Field:*
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-04.png[]
+
+When 
+
+States
+++++++
+
+[black]*Default:* When the text field is in its default state, it will look like:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-05.png[]
+
+[black]*Filled:* Once it is completed or the option is selected (in the dropdown field type), will look like this:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-06.png[]
+
+The difference is the color of the text: the light gray (# BCBEC0) turns into dark gray (#231F20).
+
+*Clarification:* In the multiple lines text field the text will be written always in dark gray (#231F20), this means that it doesn´t have different states.
+
+Forms
+^^^^^
+
+This element allows a user to enter data that is sent to a server for processing. They can also be used to retrieve information from a server. Forms are composed by text fields and text.
+
+Specs
++++++
+
+* Text Font
+    - Roboto Regular.
+    - Font size: 16px.
+    - Font color: dark gray (# 231F20).
+* See text fields specs
+
+Metrics
++++++++
+
+The amount of fields will depend on the particular form. There is no maximum nor minimum set.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/form-01.png[]
+
+Notice that next to each text field is a word. That word will be the indication of the information to enter in the text field; the help text inside the text field will be an example of what to introduce, as a default text. For example:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/form-02.png[]
+
+A common UI element that is closely related to form are buttons,needed to save, retrieve or modify the information the user is using. So, the distance between forms and buttons will be:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/form-03.png[]
+
+Navigational Components
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Tabs
+^^^^
+
+Tabs are elements where the content is separated into different panes, and each pane is viewable one at a time. The user requests content to be displayed by clicking the content’s corresponding tab control. They could be understood as a sub menu.
+
+In the Evergreen Web Staff Client it will be represented as a new bar of the general layout. It will be located under the module title bar or context bar (depending on the presence or absence of context).
+
+Specs
++++++
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px.
+    - Font color: White (#FFFFFF).
+* Background
+	- Blue (#4757A6).
+	- Height=2em
+	- The width will be the screen width (variable).
+	
+Metrics
++++++++
+
+Text in this bar will be separate 1em from each other. Left margin will be 3em plus 0.5 em to make room for the menu selector.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tabs-01.png[]
+
+Each pane will be limited by a white thin line.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tabs-02.png[]
+
+The menu selector UI element will replace the lines next to the text to show where the user is. It will look like:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tabs-03.png[]
+
+Network Indicator Activity
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Feedback is a very important source to use in user interfaces. Users need to know everytime what is happening when required something. A spiner will let the user know that the system is working to avoid frustration. 
+
+The network indicator activity element will be composed by a spiner, a message and will be shown as a popup.
+
+Specs
++++++
+
+* Font
+    - Roboto Regular.
+    - Font size: 16px.
+    - Font color: Light gray (# BCBEC0).
+* Background
+    - White color rectangle.
+	- Shadow around the rectangle´s perimeter.
+* Spiner colors
+    - Green (# 00985F).
+    - Orange (# F7941E).
+
+Metrics
++++++++
+
+The alert will measure:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/spiner-02.png[]
+
+The spiner will be:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/spiner-03.png[]
+
+Effect
+++++++
+
+The spiner will have an effect of clockwise rotation. The three orange rectangles will be moving around the green ones until the action or activity is ready:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/spiner-01.png[]
+
+Menu Selector
+^^^^^^^^^^^^^
+
+This element help users know where they are by highlighting the pane of a menu or tab displayed in the screen. It is going to be adapted to the diferent sizes of menus or tabs.
+
+Specs
++++++
+
+*Color
+    - Yellow (#E7BB21).
+*Shape
+    - Rectangle.
+    - Straight edges.
+
+Metrics
++++++++
+
+Menu selector metrics will vary according to where they are. In menus will have the menu´s height and margin=1em; in tabs, tab´s height and 0,5ems of margin to both sides:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/menu%20selector-01.png[]
+
+Informational Components
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Tool Tips
+^^^^^^^^^
+
+A tooltip allows a user to see hints when they hover over an item indicating the name or purpose of the item.
+
+Specs
++++++
+
+* Font
+    - Roboto Regular.
+    - Font size: 14px.
+    - Font color: Dark gray (#231F20).
+* Background
+    - White color rectangle.
+	- Shadow around the rectangle´s perimeter.
+* Margin
+    - 1em in both left and right sides, from the border to the text.
+* Metrics
+    - Will vary depending on the text. It can contain a single line or multiple lines. It measures can not be greater than width=12,5em and height=10em or less to height=2em. 
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tooltip-01.png[]
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tooltip-02.png[]
+
+Dividers
+^^^^^^^^
+
+Dividers ar a thin gray line that help dividing spaces or regions of the UI to organize and make the information displayed clearer.
+
+Specs
++++++
+
+* Line
+    - 1px thickness.
+    - Mid gray color (#939598).
+* Location
+    - Workspace
+    - Dropdown Menu
+    - Forms
+    - Alerts
+* Usage
+    - To separate different criteria within a set.
+    
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/divider-01.png[]
+
+Subheaders
+^^^^^^^^^^
+
+Element that functions as a subtitle within a module. It is located only in the workspace and alerts. It is a combination of text and a divider.
+
+Specs
++++++
+
+* Font
+    - Roboto Bold.
+    - Font size: 20px.
+    - Font color: Dark Gray (#231F20).
+* Location
+    - Workspace
+    - Alerts
+* Usage
+    - To separate different content within a UI.
+* See divider specs.
+    
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/subheader-01.png[]
+
+Tables
+^^^^^^
+
+This UI element is one of the most used by the Evergreen web staff client. It is used to retrieve the required information and show all the results of a search orderly.
+
+Structure
++++++++++
+
+Tables are composed by three main areas:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-03.png[]
+
+* [black]*Table Bar:* A bar that gives the possibility of adapting the manner in which the information is displayed according to the user's need. It will show a title, to locate the user; a Page navigator, Rows shown and Visible page to give freedom to visualize the information; and Action menu, to change the default table view according to the user wishes and some other options that can be made on or from the table.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-04.png[]
+
+* [black]*Columns Bar:* This section will display the a "Check all results" checkbox to implement a specific action - or set of actions- on all the results retrieved; a "Number of result" column to facilitate the observation of information and the different parts in which the result is going to be separate in.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-05.png[]
+
+* [black]*Table Results:* Where all the results retrieved are exposed. The information will be presented according to the default or options selected by the user.
+
+Metrics
++++++++
+
+Table bar: Height of 2,5em. Informative blue background color. Each icon used in this bar will have width=1em.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-06.png[]
+
+Columns Bar: Height of 2,5em.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-07.png[]
+
+The amount of columns will be always 8 (without the number of column and the checkbox columns):
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-08.png[]
+
+Table Results: Each row will have 2,5em of height. As a visual detail a row of through should have an informative blue background color with a 10% transparency to help the visualization of the information.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tables-09.png[]

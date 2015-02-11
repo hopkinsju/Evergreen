@@ -1,0 +1,98 @@
+Visual Design
+-------------
+
+Color
+~~~~~
+
+This color palette summarizes all the color used across the web application. Each color was selected carefully to work harmoniously between each other. They are also gruped conceptually.
+
+Evergreen's Green
+^^^^^^^^^^^^^^^^^
+
+The main color of the project is green. As this is the color of the logo, it will be called Evergreen´s Green. This color will be used in the main menu
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-07.png[]
+
+Prominent Orange
+^^^^^^^^^^^^^^^^
+
+This orange is used to highlight some UI elements like buttons or titles.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-02.png[]
+
+Wrong Red
+^^^^^^^^^
+
+This red is used to inform the user that something is wrong.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-08.png[]
+
+Positive Green
+^^^^^^^^^^^^^^
+
+Positive means that a specific task is achieved as expected or that there is no problems. 
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-03.png[]
+
+Informative Blue
+^^^^^^^^^^^^^^^^
+
+This blue is used just to inform something to users.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-04.png[]
+
+Insecure Purple
+^^^^^^^^^^^^^^^
+
+When something needs an answer of any kind, insecure purple appears.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-05.png[]
+
+Action Brown
+^^^^^^^^^^^^
+
+Color that has to do with performing an action.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-06.png[]
+
+Grey Scale
+^^^^^^^^^^
+
+These three greys are used to guide users.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-01.png[]
+
+Typography
+~~~~~~~~~~
+
+Roboto is a font extensively tested in many devices. It guarantee legibility, clarity and readability.
+
+Evergreen will use this typography only in two weights: regular and bold. Every text will be written in regular, titles of modules and contexts will be in bold.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/type-02.png[]
+
+As mentioned before (Page Layout and Structure - Metrics), each range of screen resolution will vary according to the proportional increase of the screens. There are going to be three different sizes in a single screen, next is a table showing each size related to the range:
+
+|=======================
+||*1366x768 to 1600x1200*|*1600x1200 to 1920x1080*|*1920x1080 to 2560x1440*
+|General Type size (body)|16px|18px|20px
+|Context Title    |20px|22px|24px
+|Footer    |14px|16px|18px
+|=======================
+
+Type color
+^^^^^^^^^^^
+
+* When the background color is white or a light color: Roboto Normal 400 will be in grey scale, dark grey (#231F20).
+* When the backgrund color is a color:Roboto Normal 400 will be in white (#FFFFFF).
+
+You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fonts]
+
+Iconography
+~~~~~~~~~~~
+
+There are two types of icnons in the web staff client: Bootstrap Glyphicon Halflings set and FatCow Icon set.
+
+http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyphicon Halflings set] will be use in the dropdown menu (Module Bar) to illustrate each possibility within each module.
+
+http://www.fatcow.com/free-icons[FatCow Icon set] will be use in the Context Bar to illustrate each action that can be applied to a particular context.

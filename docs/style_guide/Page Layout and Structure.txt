@@ -1,0 +1,224 @@
+Page Layout and Structure
+-------------------------
+
+This section will provide the basic guidelines to develop a consistent user interface throughout the whole application. A consistent UI has the benefit of: when designing, removes the need to make the same decision time and again; when coding, enables the use of templates and pre-defined snippets of code. It also gives the possibility to facilitate UI development create a scalable application.
+
+Metrics
+~~~~~~~
+
+Metrics were designed for a 1366x768 screen resolution as a minimun. As the screen resolution increases, the measures are changing accordingly. This metrics have to be respected within the web staff client, this will bring consistency, order and a neat UI design.
+
+1366x768 to 1600x1200
+^^^^^^^^^^^^^^^^^^^^^
+
+These metrics are going to be used for all the screen resolutions between the range of 1366x768 to 1600x1200. Metrics are expressed in "ems". Taking 16px as the default typography size of the body, 1em is going to be equal to 16px, unless otherwise is stated.
+
+There are also two more different sizes of typography in a single UI design. This means that the body typography will determine the UI measures and the size of text within the web staff client, however, there are two different sizes (one in the context bar and the other in the footer) metrics will be maintained based on the typeface size of the body but only change the typeface size. 
+
+Page general structure
+~~~~~~~~~~~~~~~~~~~~~~
+
+The UI general structure is divided in two types of user interfaces according to the information displayed. This difference is defined by the presence or absence of context. Context is understood as an entity with a given state to which a set of actions can be applied and, in consecuence, modify its state.
+
+Without context
+~~~~~~~~~~~~~~~
+
+The UI without context will be composed of five main elements:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure-01.png[]
+
+[black]*Program Bar*: Is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts or any action regarding to this criteria, located on the right side of this header.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/programbar-01.png[]
+
+Metrics
++++++++
+
+The program bar will have 4em of height and its width will be adapted to the screen resolution.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/program%20bar-01.png[]
+
+Evergreen´s logo will be:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/program%20bar-02.png[]
+
+The user/library button will be as large as the text is; also the distance between the icon and the text is measured and has to be respected:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/program%20bar-03.png[]
+
+[black]*Module Bar*: All the actions that can be performed across the web application are divided and grouped into modules. Those modules are located in this bar present in all the web app screens. By clicking the modules a dropdown menu will be displayed. It can contain as many modules as needed.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20bar-01.png[]
+
+Metrics
++++++++
+
+The module bar will have 4em of height and its width will be adapted to the screen resolution.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20bar-02.png[]
+
+There are some metrics that are important to respect in the module bar structure like the distance between the text and the down arrow and the distance between each module title:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20bar-03.png[]
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20bar-04.png[]
+
+[black]*Action Scans Widget*: This area is intended to a specific current action. A search both from patrons or items is always needed by users, it is a frequent task. This area is created to perform only this kind of search. Users will be able to introduce either barcodes and the widget is going to alone distinguish to what type corresponds.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/widget-01.png[]
+
+By clicking it, a search form would appear:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/widget-03.png[]
+
+Metrics
++++++++
+
+As it is integrated to the module bar, it will have 4em of height:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/widget-02.png[]
+
+[black]*Module Title Bar*: To locate the user is precise to have each module title in sight. This bar will contain only the module title in centered alignment.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20title%20bar-01.png[]
+
+Metrics
++++++++
+
+Title´s font size will be in 20px.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/module%20title%20bar-02.png[]
+
+[black]*Workspace*: The information should be presented consistently in all the different screens of the web application, that´s why content (text, form, list, table, etc) will be shown in this limited area. Margins and grids must be respected.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/workspace-02.png[]
+
+Metrics
++++++++
+
+Some metrics that need to be respected are the distance between the workspace and the bar above of it and with the footer below of it:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/workspace-01.png[]
+
+[black]*Footer*: Being an open source software project involves another type of perception regarding the product / service provided. A brief description about the license used and the current year to show that is updated.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/footer-01.png[]
+
+Metrics
++++++++
+
+An important comment to do about text s that it will be 14px and will be aligned to the center of the footer:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/footer-02.png[]
+
+With context
+~~~~~~~~~~~~
+
+The general structure is the same with and without context, the only difference is that a new bar is displayed. The UI with context will be composed of six main elements:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure-02.png[]
+
+[black]*Context Bar*: This bar will appear only when an action set could be apply to a specific context. The actions will be represented with an icon form the FatCow icon set.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/context%20bar-01.png[]
+
+Metrics
++++++++
+
+A detail that should be mentioned is that the size of typography varies respect to the body only in the left section (where the name or the item is mentioned). Every context will be written in 20px.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/context%20bar-02.png[]
+
+The icons region need some explanations:
+
+* The maximum amount of icons (with their respective entries) is six.
+* Icons set must be centered align.
+* The presence of the hamburger icon (in the right side of the context bar) represents that there are more possible actions than the six shown.
+* If the number of actions that can be performed to the context is less than six, the hamburger icon will not be displayed.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/context%20bar-03.png[]
+
+Layout template or grid
+~~~~~~~~~~~~~~~~~~~~~~~
+
+The layout template or grid will be orthogonal. This template will be adapted (scalable) to different screen resolutions. With context: 
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-05.png[]
+
+Without context:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-06.png[]
+
+Metrics
++++++++
+
+Horizontal margin will be 4em in both sides of the UI.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-01.png[]
+
+The general structure is divided into three main columns. These columns define the location of the content in the workspace. There are secondary baselines that create a smaller area.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-02.png[]
+
+Depending on the presence or absence of context the metrics will vary. With context:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-04.png[]
+
+Without context:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template-03.png[]
+
+Popups and dialogues
+~~~~~~~~~~~~~~~~~~~~
+
+Popups and dialogues are messages that warn of a mistake, require a decision or simply report something. These messages will suddenly appear on the screen to interrupt the task that the user is performing because an answer is needed in that precise moment. This resource will be composed of a title, a message, some content (forms, checkbox, etc) and one -or more if required- action button.
+
+Each alert will have a perimetric shadow to separate it from the content in the screen. It will be center aligned.
+
+There will be five different types. The major difference between tehem will be the title´s background color:
+
+Error message
+^^^^^^^^^^^^^
+
+When something isn´t going as expected, an error occurs or the information introduced is wrong, an error message popup will be displayed. The title´s background color is wrong red.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-01.png[]
+
+Information message
+^^^^^^^^^^^^^^^^^^^
+
+The only purpose of this kind of popup is to inform. Its title´s background color will be informative blue.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-02.png[]
+
+Success message
+^^^^^^^^^^^^^^^
+
+Once the user has performed an action and this has been successfully. Title´s background color: positive green.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-03.png[]
+
+Question message
+^^^^^^^^^^^^^^^^
+
+Sometimes the system will need a confirmation or a denail from the user to perform a specific action or process. Title´s background color: insecure purple.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-04.png[]
+
+Action Alert
+^^^^^^^^^^^^
+
+Modal alert will provide additional fuctionality to the system by displaying a popup requiring the user to perform an action in this area, the information will modify some aspect of the context to  which is applied. The title´s background color is active brown.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-08.png[]
+
+Popups metrics and structure
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Metrics apply to all types of popups. Its structure:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-07.png[]
+
+It will have two areas: where the title is placed and the content region:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-06.png[]
