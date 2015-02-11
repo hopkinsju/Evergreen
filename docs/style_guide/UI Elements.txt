@@ -165,15 +165,6 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-02.png[]
 
-Metrics
-+++++++
-
-There are no specific measures. They will depend on the content of each dropdown menu. But metrics are determine with margins between objects:
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-03.png[]
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-04.png[]
-
 Specs
 +++++
 
@@ -187,6 +178,15 @@ Specs
 * Icons (if needed)
     - Width=1em.
     - Color: dark gray (#231F20).
+	
+Metrics
++++++++
+
+There are no specific measures. They will depend on the content of each dropdown menu. But metrics are determine with margins between objects:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-03.png[]
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/dropdown%20menu-04.png[]
 
 Date Pickers
 ^^^^^^^^^^^^
@@ -263,7 +263,7 @@ These metrics are defined by default. The text field would have the possibility 
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-04.png[]
 
-When 
+When users can choose between a set of options a dropdown menu will be displayed.
 
 States
 ++++++
