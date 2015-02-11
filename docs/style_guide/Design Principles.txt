@@ -4,84 +4,84 @@
 1.1 Be Simple
 ~~~~~~~~~~~~~
 
-Simplicity on tasks, white spaces and an intuitive navigation are the perfect combination that users expect from a web application. Reducing extra effort avoid frustration and early abandonment.
+Simplicity of tasks, white spaces and an intuitive navigation are the perfect combination that users expect from a web application. Reducing extra effort avoids frustration and early abandonment.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-03.png[]
 
 [red]*Don´t*
 
-UIs become cluttered and complex while much data is displayed, it can produce confusion to the users and can make the application more difficult to learn.
+UIs become cluttered and complex when too much data is displayed; it can produce confusion and can make the application more difficult to learn.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-04.png[]
 
 [green]*Do*
 
-Design Patterns as Progressive and Staged Disclosure can be applied. Focus is always on users effortless.
+Design Patterns as Progressive and Staged Disclosure can be applied. Focus is always on reducing user effort.
 
 1.2 Be Concise
 ~~~~~~~~~~~~~~
 
-Users need their tasks to be done quickly and effectively when needed. Give brief and precise instructions so users do not lose time with completing unnecessary information or thinking too much how to proceed.
+Users need their tasks to be done quickly and effectively when needed. Give brief and precise instructions so users do not waste time completing unnecessary information or thinking too much about how to proceed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-01.png[]
 
 [red]*Don´t*
 
-The user is discouraged when see that too much information must be completed.
+The user is discouraged when seeing that too much information must be completed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-02.png[]
 
 [green]*Do*
 
-Account Registration Design Pattern can be applied. The less information, more satisfying the action will be.
+Account Registration Design Pattern can be applied. The less information required, the more satisfying the action will be.
 
 1.3 Be Consistent
 ~~~~~~~~~~~~~~~~~
 
-Users feel lost when everything changes as they move around the web application. Visual consistency makes UIs easier to use, gives an overall impression of professionalism and reliability and it reduces the slope of the UI learning curve which is one of the main “enemies” of the user experience.
+Users feel lost when everything changes as they move around a web application. Visual consistency makes UIs easier to use, gives an overall impression of professionalism and reliability, and it reduces the slope of the UI learning curve which is one of the main “enemies” of the user experience.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-05.png[]
 
 [red]*Don´t*
 
-Changes between screens of the same application are the evidence of a guideline absence.
+Changes between screens of the same application are evidence of missing guidelines.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-06.png[]
 
 [green]*Do*
 
-Conventions are made to be follow. Preset guidelines ensure uniformity. The usability heuristic “consistency and standards” explains this.
+Conventions are made to be followed. Preset guidelines ensure uniformity. The usability heuristic “consistency and standards” explains this.
 
 1.4 Give permanent Feedback
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Feedback is an essential property of a usable product and necessary to avoid confused or frustrated users. It is critical for the user to naturally flow through the UI without a clue of what is happening. Notify that all the actions the user is performing are being processed, made or verified at all times as necessary.
+Feedback is an essential property of a usable product, and necessary to avoid confused or frustrated users. It is critical for the user to naturally flow through the UI without wondering what is happening. Notify the user that all actions he or she is performing are being processed, made, or verified at all times (as necessary).
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-07.png[]
 
 [red]*Don´t*
 
-Users need to have control over the application, if it doesn´t respond as expected, they get impatient quickly and can end up dropping or frustrated.
+Users need to have control over the application. If it doesn´t respond as expected, they get impatient quickly and can end up frustrated.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-08.png[]
 
 [green]*Do*
 
-A spinner can be an effective solution to avoid dissatisfaction among users. Suggestion: use visibility of system status (usability heuristic) to prevent this kind of unresponsiveness issues.
+A spinner can be an effective solution to avoid dissatisfaction among users. Suggestion: use visibility of system status (usability heuristic) to prevent these kinds of unresponsiveness issues.
 
 1.5 Being friendly always works
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Language is the most important way to communicate between people but communication channels and codes vary a lot when a system is involved. Show that systems are developed by people, avoid technical words or code and be gentle in the way of saying things.
+Language is the most important way to communicate between people, but communication channels and codes vary a lot when a system is involved. Show that systems are developed by people; avoid technical words or codes and be gentle in the way things are stated.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-09.png[]
 
 [red]*Don´t*
 
-People who are not related to the world of coding does not understand technical language commonly used by developers.
+People who are not involved in the world of coding do not understand technical language commonly used by developers.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-10.png[]
 
 [green]*Do*
 
-Using simple, understandable and kind language will be welcomed and appreciated by the user.Take into account the usability heuristic call `match between system and the real world'.
+Using simple, understandable, and kind language will be welcomed and appreciated by the user. Take into account the usability heuristic calling for a match between the system and the real world.
