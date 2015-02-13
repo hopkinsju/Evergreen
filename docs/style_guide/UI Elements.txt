@@ -225,7 +225,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 4.1.7 Text fields
 ^^^^^^^^^^^^^^^^^
 
-Text fields allow users to enter text.  It can allow either a single line or multiple lines of text. These elements can also work as a dropdown menu in case it is necessary.
+Text fields allow users to enter text.  It can allow either a single line or multiple lines of text. These elements can also work as a dropdown menu in case it is necessary or a 
 
 4.1.7.1 Specs
 +++++++++++++
@@ -237,6 +237,10 @@ Text fields allow users to enter text.  It can allow either a single line or mul
 * Background
     - Rectangle with a 5px corner radius in dark gray (# 231F20).
     - No Gradient.
+	- White background.
+* Background (highlighted)
+	- Rectangle with a 5px corner radius in orange (#F7941E).
+	- No Gradient.
 	- White background.
 * Icon (arrow)
     - Width=1em.
@@ -265,6 +269,16 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 
 When users can choose between a set of options a dropdown menu will be displayed.
 
+[black]*Toggle Field:*
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-07.png[]
+
+This type of text field allows users to change between consecutive options, giving the possibility of going backwards and forwards.
+
+[black]*Distance between fields:*
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-09.png[]
+
 4.1.7.3 States
 ++++++++++++++
 
@@ -277,6 +291,10 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-06.png[]
 
 The difference is the color of the text: the light gray (# BCBEC0) turns into dark gray (#231F20).
+
+[black]*Highlighted:* Sometimes is neccessary to visualy guide users in the screen. This specific state shows the user where start filling the text fields or stand out a particular field.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/fields-08.png[]
 
 *Clarification:* In the multiple lines text field the text will be written always in dark gray (#231F20), this means that it doesn´t have different states.
 
@@ -308,6 +326,26 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 A common UI element that is closely related to form are buttons,needed to save, retrieve or modify the information the user is using. So, the distance between forms and buttons will be:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/form-03.png[]
+
+4.1.9 Radio Buttons
+^^^^^^^^^^^^^^^^^^^
+
+Radio buttons are used when you want to let users select one - and just one - option from a set of alternatives. It is going to be used the default input type="radio" to apply this element in a UI. Every radio button will be located 1em from the word (left or right side) or in a center alignment.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/radio%20button-01.png[]
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/radio%20button-02.png[]
+
+4.1.9.1 State
++++++++++++++
+
+Unchecked:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/radio%20button-03.png[]
+
+Checked:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/radio%20button-04.png[]
 
 4.2 Navigational Components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -436,7 +474,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 4.3.2 Dividers
 ^^^^^^^^^^^^^^
 
-Dividers ar a thin gray line that help dividing spaces or regions of the UI to organize and make the information displayed clearer.
+Dividers ar a thin gray line that help dividing spaces or regions of the UI to organize and make the information displayed clearer. They can be used horizontally or vertically depending on the case.
 
 4.3.2.1 Specs
 +++++++++++++
