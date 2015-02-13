@@ -474,7 +474,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 4.3.2 Dividers
 ^^^^^^^^^^^^^^
 
-Dividers ar a thin gray line that help dividing spaces or regions of the UI to organize and make the information displayed clearer. They can be used horizontally or vertically depending on the case.
+Dividers ar a thin gray line that help dividing spaces or regions of the UI to organize and make the information displayed clearer.
 
 4.3.2.1 Specs
 +++++++++++++
