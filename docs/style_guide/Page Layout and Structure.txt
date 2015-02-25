@@ -171,54 +171,47 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 2.4 Popups and dialogues
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Popups and dialogues are messages that warn of a mistake, require a decision or simply report something. These messages will suddenly appear on the screen to interrupt the task that the user is performing because an answer is needed in that precise moment. This resource will be composed of a title, a message, some content (forms, checkbox, etc) and one -or more if required- action button.
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-03.png[]
+
+Popups and dialogues are messages that warn of a mistake, require a decision or simply report something. These messages will suddenly appear on the screen to interrupt the task that the user is performing because an answer is needed in that precise moment. This component will be composed of a title, a message, an action or both; and one - or more if required- action buttons.
 
 Each alert will have a perimetric shadow to separate it from the content in the screen. It will be center aligned.
 
-There will be five different types. The major difference between tehem will be the title´s background color:
-
-2.4.1 Error message
-^^^^^^^^^^^^^^^^^^^
-
-When something isn´t going as expected, an error occurs or the information introduced is wrong, an error message popup will be displayed. The title´s background color is wrong red.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-01.png[]
-
-2.4.2 Information message
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The only purpose of this kind of popup is to inform. Its title´s background color will be informative blue.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-02.png[]
-
-2.4.3 Success message
-^^^^^^^^^^^^^^^^^^^^^^
-
-Once the user has performed an action and this has been successfully. Title´s background color: positive green.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-03.png[]
-
-2.4.4 Question message
-^^^^^^^^^^^^^^^^^^^^^^
-
-Sometimes the system will need a confirmation or a denail from the user to perform a specific action or process. Title´s background color: insecure purple.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-04.png[]
-
-2.4.5 Action Alert
-^^^^^^^^^^^^^^^^^^
-
-Modal alert will provide additional fuctionality to the system by displaying a popup requiring the user to perform an action in this area, the information will modify some aspect of the context to  which is applied. The title´s background color is active brown.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-08.png[]
-
-2.4.6 Popups metrics and structure
+2.4.1 Popups metrics and structure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Metrics apply to all types of popups. Its structure:
 
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-02.png[]
+
+It will be divided in two areas:
+
+* *Title Bar:* This bar will contain an icon from the Glyphicon set illustrating the meaning of its popup and the type of interaction it will be refering to, this is the title of the message displayed. Also, this bar will have different colors depending on the information it handles.
+* *Content Region:* The message itself will be contained in this area. The message will be expressed by text, action or both. Messages will be accompanied by buttons which will accept or cancel them.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-01.png[]
+
+2.4.2 Types
+^^^^^^^^^^^
+
+There will be five different types. The major difference between them will be the title´s background color and its icon:
+
+* *Error:* When something isn't going as expected, an error occurs or the information introduced is wrong, an error message popup will be displayed. The title's background color is wrong red.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-04.png[]
+
+* *Information message:* The only purpose of this kind of popup is to inform. Its title's background color will be informative blue.
+
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-07.png[]
 
-It will have two areas: where the title is placed and the content region:
+* *Success message:* Once the user has performed an action and this has been successfully. Title's background color: positive green.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-05.png[]
+
+* *Question message:* Sometimes the system will need a confirmation or a denail from the user to perform a specific action or process. Title's background color: insecure purple.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-06.png[]
+
+* *Action Alert:* Modal alert will provide additional fuctionality to the system by displaying a popup requiring the user to perform an action in this area, the information will modify some aspect of the context to  which is applied. The title's background color is active brown.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups-08.png[]
