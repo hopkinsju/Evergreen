@@ -40,13 +40,13 @@ The UI general structure is divided into two types of user interfaces according 
 2.2.1 Without context
 ^^^^^^^^^^^^^^^^^^^^^
 
-The UI without context will be composed of six main elements:
+The UI without context will be composed of five main elements:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure/structure-01.png[]
 
 [black]*Program Bar*: It is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts or any action regarding to this criteria, located on the right side of this header.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc1.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc2.png[]
 
 Metrics
 +++++++
@@ -65,7 +65,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 [black]*Module Bar*: All the actions that can be performed across the web application are divided and grouped into modules. Those modules are located in this bar present in all the web app screens. By clicking the modules a dropdown menu will be displayed. It can contain as many modules as needed.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc2.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc3.png[]
 
 Metrics
 +++++++
@@ -81,17 +81,6 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20bar-02.png[]
 
 Each module is separated by a thin white line that will make each module work like a button. 
-
-[black]*Action Scans Widget*: This area is intended to a specific current action. A search both from patrons or items is always needed by users, it is a frequent task. This area is created to launch a search interface, as another type of shortcut.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc3.png[]
-
-Metrics
-+++++++
-
-As it is integrated to the module bar, it will have 2,5em of height. It is represented by a magnifying glass icon (Glyphicon set - search) measuring width = 1em:
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/widget-01.png[]
 
 [black]*Title/Action Bar*: To locate the user is precise to have each module title in sight. This bar will contain the module title in left alignment. This bar is also prepare to handle with tabs and it contains buttons. This means that it has the purpose of  locate the user and trigger actions that apply to the entire page.
 
@@ -133,7 +122,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 2.2.2 With context
 ^^^^^^^^^^^^^^^^^^
 
-The general structure is the same with and without context, the only difference is that a new bar is displayed. The UI with context will be composed of seven main elements:
+The general structure is the same with and without context, the only difference is that a new bar is displayed. The UI with context will be composed of six main elements:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure/structure-02.png[]
 
@@ -157,6 +146,10 @@ The icons region need some explanations:
 * If the number of actions that can be performed to the context is less than eight, the hamburger icon will not be displayed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/context%20bar-02.png[]
+
+In the right edge of the context bar we can find a section called "Results Manager". It allows the possibility of returning to the UI where the table results is, going to the next or previous context one by one, or to the first or last one directly. It also gives the option of searching a new context. It will be displayed only when the context comes from a previous search in a search interface.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/context%20bar-03.png[]
 
 2.3 Layout template or grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

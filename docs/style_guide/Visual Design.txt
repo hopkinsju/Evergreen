@@ -4,81 +4,71 @@
 3.1 Color
 ~~~~~~~~~
 
-This color palette summarizes all the color used across the web application. Each color was selected carefully to work harmoniously between each other. They are also gruped conceptually.
+A color palette summarizes all the color used across the web application. Each color was selected carefully to work harmoniously between each other. They are also gruped conceptually under the concept of hierarchical layers. There will be an order that has to be applied to the different layers in the web app. The order is defined by the less important information to the most relevant information. This hierarchical orden is adopted by the general structure, while each element in the workspace will follow the colors established in the UI Elements' guidelines.
 
-3.1.1 Evergreen's Green
-^^^^^^^^^^^^^^^^^^^^^^^
+3.1.1 Color Palette
+^^^^^^^^^^^^^^^^^^^
 
-The main color of the project is green. As this is the color of the logo, it will be called Evergreen´s Green. This color will be used in the main menu
+This is the color palette of the Evergreen's web staff client:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-07.png[]
+image:[]
 
-3.1.2 Prominent Orange
-^^^^^^^^^^^^^^^^^^^^^^
+
+3.1.2 Layers
+^^^^^^^^^^^^
 
 This orange is used to highlight some UI elements like buttons or titles.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-02.png[]
 
-3.1.3 Wrong Red
-^^^^^^^^^^^^^^^
+3.1.3 Color meanings (Popups)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The main color of the project is green. As this is the color of the logo, it will be called Evergreen´s Green. This color will be used in the main menu
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-07.png[]
+
+Wrong Red
+^^^^^^^^^
 
 This red is used to inform the user that something is wrong.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-08.png[]
 
-3.1.4 Positive Green
-^^^^^^^^^^^^^^^^^^^^
+Positive Green
+^^^^^^^^^^^^^^
 
 Positive means that a specific task is achieved as expected or that there is no problems. 
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-03.png[]
 
-3.1.5 Informative Blue
-^^^^^^^^^^^^^^^^^^^^^^
+Informative Blue
+^^^^^^^^^^^^^^^^
 
 This blue is used just to inform something to users.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-04.png[]
 
-3.1.6 Insecure Purple
-^^^^^^^^^^^^^^^^^^^^^
+Insecure Purple
+^^^^^^^^^^^^^^^
 
 When something needs an answer of any kind, insecure purple appears.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-05.png[]
 
-3.1.7 Action Brown
-^^^^^^^^^^^^^^^^^^
+Action Brown
+^^^^^^^^^^^^
 
 Color that has to do with performing an action.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-06.png[]
 
-3.1.8 Grey Scale
-^^^^^^^^^^^^^^^^
+Grey Scale
+^^^^^^^^^^
 
 These three greys are used to guide users.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-01.png[]
-
-3.2 Typography
-~~~~~~~~~~~~~~
-
-Roboto is a font extensively tested in many devices. It guarantee legibility, clarity and readability.
-
-Evergreen will use this typography only in two weights: regular and bold. Every text will be written in regular, titles of modules and contexts will be in bold.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/type-02.png[]
-
-As mentioned before (Page Layout and Structure - Metrics), each range of screen resolution will vary according to the proportional increase of the screens. There are going to be three different sizes in a single screen, next is a table showing each size related to the range:
-
-|=======================
-||*1366x768 to 1600x1200*|*1600x1200 to 1920x1080*|*1920x1080 to 2560x1440*
-|General Type size (body)|16px|18px|20px
-|Context Title    |20px|22px|24px
-|Footer    |14px|16px|18px
-|=======================
 
 3.2.1 Type color
 ^^^^^^^^^^^^^^^^
