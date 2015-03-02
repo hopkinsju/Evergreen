@@ -23,19 +23,14 @@ Index
 [black]*2. Page Layout and Structure*
 
 * *2.1* Metrics
-    - *2.1.1* 1366x768 to 1600x1200
+    - *2.1.1* Ranges
 * *2.2* Page General Structure
     - *2.2.1* Without Context
     - *2.2.2* With Context
 * *2.3* Layout template or grid
     - *2.3.1* Metrics
 * *2.4* Popups and Dialogues
-    - *2.4.1* Error message
-    - *2.4.2* Information message
-    - *2.4.3* Success message
-    - *2.4.4* Question message
-    - *2.4.5* Action Alert
-    - *2.4.6* Popups metrics and structure
+    - *2.4.1* Types
 
 [black]*3. Visual Design*
 

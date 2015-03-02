@@ -188,7 +188,7 @@ Without context:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/template-03.png[]
 
-2.4.1 Popups metrics and structure
+2.4 Popups metrics and structure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-03.png[]
@@ -204,7 +204,7 @@ It will be divided in two areas:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-01.png[]
 
-2.4.2 Types
+2.4.1 Types
 ^^^^^^^^^^^
 
 There will be five different types. The major difference between them will be the title´s background color and its icon:
