@@ -82,13 +82,9 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 Each module is separated by a thin white line that will make each module work like a button. 
 
-[black]*Action Scans Widget*: This area is intended to a specific current action. A search both from patrons or items is always needed by users, it is a frequent task. This area is created to perform only this kind of search. Users will be able to introduce either barcodes and the widget is going to alone distinguish to what type corresponds.
+[black]*Action Scans Widget*: This area is intended to a specific current action. A search both from patrons or items is always needed by users, it is a frequent task. This area is created to launch a search interface, as another type of shortcut.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc3.png[]
-
-By clicking it, a search form would appear a small popup:
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/widget-02.png[]
 
 Metrics
 +++++++
@@ -96,10 +92,6 @@ Metrics
 As it is integrated to the module bar, it will have 2,5em of height. It is represented by a magnifying glass icon (Glyphicon set - search) measuring width = 1em:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/widget-01.png[]
-
-The popup components (field and buttons) will follow the guidelines established in the UI Elements item of this UI style guide. 
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/widget-03.png[]
 
 [black]*Title/Action Bar*: To locate the user is precise to have each module title in sight. This bar will contain the module title in left alignment. This bar is also prepare to handle with tabs and it contains buttons. This means that it has the purpose of  locate the user and trigger actions that apply to the entire page.
 
@@ -207,7 +199,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 It will be divided in two areas:
 
-* *Title Bar:* This bar will contain an icon from the Glyphicon set (it will be width = 2em)illustrating the meaning of its popup and the type of interaction it will be refering to, this is the title of the message displayed. Also, this bar will have different colors depending on the information it handles.
+* *Title Bar:* This bar will contain an icon from the Glyphicon set (it will be width = 2em) illustrating the meaning of its popup and the type of interaction it will be refering to, this is the title of the message displayed. Also, this bar will have different colors depending on the information it handles.
 * *Content Region:* The message itself will be contained in this area. The message will be expressed by text, action or both. Messages will be accompanied by buttons which will accept or cancel them.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-01.png[]

@@ -226,6 +226,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elem
 ^^^^^^^^^^^^^^^^^
 
 Text fields allow users to enter text.  It can allow either a single line or multiple lines of text. These elements can also work as a dropdown menu in case it is necessary or a 
+"I just mean we should note that we are choosing to keep left aligned for the specific need of scanning for a particular field. "
 
 4.1.7.1 Specs
 +++++++++++++

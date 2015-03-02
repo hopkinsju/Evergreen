@@ -6,6 +6,9 @@ Products are made to be used. There is no reason to add effort to develop, test 
 * Think always according to user-center design.
 * It will be mainly used by developers without limiting anyone who needs to consult it.
 
+Clarification:
+Every image in this Ui style guide is tentative.
+
 Index
 ~~~~~
 
