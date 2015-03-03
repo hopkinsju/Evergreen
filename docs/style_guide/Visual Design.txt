@@ -9,72 +9,60 @@ A color palette summarizes all the color used across the web application. Each c
 3.1.1 Color Palette
 ^^^^^^^^^^^^^^^^^^^
 
-This is the color palette of the Evergreen's web staff client:
+This is the general color palette of the Evergreen's web staff client:
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20pallete.png[]
 
+3.1.2 Color Layers (Structure)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.1.2 Layers
-^^^^^^^^^^^^
+Colors give hierarchy to elements. This means that the color combination establish logic layers that remark the visual importance of each element, guiding the users' eyes to see what is more relevant in the UI.
 
-This orange is used to highlight some UI elements like buttons or titles.
+By establish a fixed and well defined visual hierarchy using colors but only at a structural level ensures a precise visual order of the information displayed and eliminates potential problems of consistency and subjectivity.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20layers.png[]
 
-3.1.3 Color meanings (Popups)
+3.1.3 Color Meanings (Popups)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The main color of the project is green. As this is the color of the logo, it will be called Evergreen´s Green. This color will be used in the main menu
+Colors give meaning to elements. Each color has a special meaning and it is supposed to be applied to elements that need to transmit an implicit message. This approach is used only in popups or dialogues, ensuring that both, the tone and the message will be emphasized by using a visual resource.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-07.png[]
+* *Wrong Red:* This red is used to inform the user that something is wrong.
+* *Positive Green:* Positive means that a specific task is achieved as expected or that there is no problems. 
+* *Informative Blue:* This blue is used just to inform something to users.
+* *Insecure Purple:* When something needs an answer of any kind, insecure purple appears.
+* *Action Brown:* Color that has to do with performing an action.
+* *Grey Scale:* These three greys are used to guide users.
 
-Wrong Red
-^^^^^^^^^
+*Refer to the color palette to find out what color is the explanations relate.
 
-This red is used to inform the user that something is wrong.
+3.2 Typography
+~~~~~~~~~~~~~~
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-08.png[]
+Roboto is a font extensively tested in many devices. It guarantee legibility, clarity and readability.
 
-Positive Green
-^^^^^^^^^^^^^^
+Evergreen will use this typography only in two weights: regular and bold. Every text will be written in regular, titles of modules and contexts will be in bold.
 
-Positive means that a specific task is achieved as expected or that there is no problems. 
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/type-02.png[]
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-03.png[]
+As mentioned before (Page Layout and Structure - Metrics), each range of screen resolution will vary according to the proportional increase of the screens. There are going to be three different sizes in a single screen, next is a table showing each size related to the range:
 
-Informative Blue
-^^^^^^^^^^^^^^^^
-
-This blue is used just to inform something to users.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-04.png[]
-
-Insecure Purple
-^^^^^^^^^^^^^^^
-
-When something needs an answer of any kind, insecure purple appears.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-05.png[]
-
-Action Brown
-^^^^^^^^^^^^
-
-Color that has to do with performing an action.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-06.png[]
-
-Grey Scale
-^^^^^^^^^^
-
-These three greys are used to guide users.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-01.png[]
+|=======================
+||*1366x768 to 1600x1200*|*1600x1200 to 1920x1080*|*1920x1080 to 2560x1440*
+|General Type size (body)|16px|18px|20px
+|Context Title    |20px|22px|24px
+|Subtitle's Context | 14px|16px|18px
+|Title's Actions (Context Actions) | 14px|16px|18px
+|Title (Title/Action Bar) | 20px|22px|24px
+|Tabs (Title/Actions Bar) | 16px|18px|20px
+|Footer    |14px|16px|18px
+|=======================
 
 3.2.1 Type color
 ^^^^^^^^^^^^^^^^
 
 * When the background color is white or a light color: Roboto Normal 400 will be in grey scale, dark grey (#231F20).
-* When the backgrund color is a color:Roboto Normal 400 will be in white (#FFFFFF).
+* When the backgrund color is a dark color: Roboto Normal 400 will be in white (#FFFFFF).
 
 You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fonts]
 
@@ -83,6 +71,6 @@ You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fon
 
 There are two types of icnons in the web staff client: Bootstrap Glyphicon Halflings set and FatCow Icon set.
 
-http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyphicon Halflings set] will be use in the dropdown menu (Module Bar) to illustrate each possibility within each module.
+http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyphicon Halflings set] will be use in the whole web staff application.
 
-http://www.fatcow.com/free-icons[FatCow Icon set] will be use in the Context Bar to illustrate each action that can be applied to a particular context.
+http://www.fatcow.com/free-icons[FatCow Icon set] will be use in the Context Bar to illustrate each action that can be applied to a particular context and in the home page.
