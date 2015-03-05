@@ -29,7 +29,7 @@ They are a text or image that illustrate an action and invite the user to click 
 
 * Font
     - Roboto Regular.
-    - Font size: 16px (1em).
+    - Font size: 16px (Range #1), 18px (Range #2), 20px (Range #3).
     - Font color: white (#FFFFFF).
 * Background
     - Rectangle with a 5px corner radius.
@@ -42,7 +42,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 * Font
     - Roboto Regular.
-    - Font size: 16px (1em).
+    - Font size: 16px (Range #1), 18px (Range #2), 20px (Range #3).
     - Font color: white (#FFFFFF).
 * Background
     - Rectangle with a 5px corner radius.
@@ -55,7 +55,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 * Font
     - Roboto Regular.
-    - Font size: 16px (1em).
+    - Font size: 16px (Range #1), 18px (Range #2), 20px (Range #3).
     - Font color:
     ** On a white background: Dark gray (#231F20).
     ** On a color background: White (#FFFFFF).
@@ -74,7 +74,7 @@ Any type of buttons will have a fixed height, while the width will vary along th
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-02.png[]
 
-As said, text will be 16px in a center alignment. Margins around the whole text will be 1em.
+As said, text will be 16px (Range #1), 18px (Range #2), 20px (Range #3) in a center alignment. Margins will be 1em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-03.png[]
 
@@ -158,13 +158,27 @@ When there is lack of space or there is information that can be hidden momentari
 
 * glyphicon-resize-full:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/expand%20collapse-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-01.png[]
 
 * glyphicon-resize-small:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/expand%20collapse-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-02.png[]
 
 The icon will have 1em of width. Its color will vary depending on the backgruond color: if the background color is white or a light color, use #231F20 (dark gray); if the background color is a dark color, use #FFFFFF (white).
+
+The way in which the information is shown when expanding should vary depending on the place the icon is located.
+
+Inside a bar:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-03.png[]
+
+Information will be within a white rectangle with a faint shadow around it. Notice that the content in the workspace is not covered, it was accommodated in the remaining space.
+
+In the workspace:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-04.png[]
+
+information will be displayed as plain text.
 
 4.1.4 Dropdown Menu
 ^^^^^^^^^^^^^^^^^^^
@@ -183,7 +197,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 * Font
     - Roboto Regular.
-    - Font size: 16px (1em).
+    - Font size: 16px (Range #1), 18px (Range #2), 20px (Range #3).
     - Font color: Dark gray (#231F20).
 * Background
     - White background.
@@ -261,7 +275,7 @@ Text fields allow users to enter data.  It can allow either a single line or mul
 
 * Font
     - Roboto Regular.
-    - Font size: 14px.
+    - Font size: 14px (Range #1), 16px (Range #2), 18px (Range #3).
     - Font color: Light gray (# BCBEC0).
 * Background
     - Rectangle with a 5px corner radius in dark gray (# 231F20).
@@ -326,7 +340,7 @@ This element allows a user to enter data which is sent to a server for processin
 
 * Text Font (label)
     - Roboto Regular.
-    - Font size: 16px.
+    - Font size: 16px (Range #1), 18px (Range #2), 20px (Range #3).
     - Font color: dark gray (# 231F20).
 * See text fields specs
 
@@ -382,39 +396,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 4.2 Navigational Components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-4.2.1 Tabs
-^^^^^^^^^^
-
-Tabs are elements where the content is separated into different panes, and each pane is viewable one at a time. The user requests content to be displayed by clicking the content’s corresponding tab control. They could be understood as a sub menu.
-
-In the Evergreen Web Staff Client it will be represented as a new bar of the general layout. It will be located under the module title bar or context bar (depending on the presence or absence of context).
-
-*Specs*
-
-* Font
-    - Roboto Regular.
-    - Font size: 16px.
-    - Font color: White (#FFFFFF).
-* Background
-	- Blue (#4757A6).
-	- Height=2em
-	- The width will be the screen width (variable).
-	
-*Metrics*
-
-Text in this bar will be separate 1em from each other. Left margin will be 3em plus 0.5 em to make room for the menu selector.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tabs-01.png[]
-
-Each pane will be limited by a white thin line.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tabs-02.png[]
-
-The menu selector UI element will replace the lines next to the text to show where the user is. It will look like:
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/ui%20elements/tabs-03.png[]
-
-4.2.2 Network Indicator Activity
+4.2.1 Network Indicator Activity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Feedback is a very important source to use in user interfaces. Users need to know everytime what is happening when required something. A spiner will let the user know that the system is working to avoid frustration. 
@@ -425,7 +407,7 @@ The network indicator activity element will be composed by a spiner, a message a
 
 * Font
     - Roboto Regular.
-    - Font size: 16px.
+    - Font size: 16px (Range #1), 18px (Range #2), 20px (Range #3).
     - Font color: Light gray (# BCBEC0).
 * Background
     - White color rectangle.
@@ -450,7 +432,7 @@ The spiner will have an effect of clockwise rotation. The three orange rectangle
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Navigational/spiner-01.png[]
 
-4.2.3 Menu Selector
+4.2.2 Menu Selector
 ^^^^^^^^^^^^^^^^^^^
 
 This element help users know where they are by highlighting the pane of a menu or tab displayed in the screen. It is going to be adapted to the diferent sizes of menus or tabs. This UI element will force the bars to cum 4px below to give rise to snap.
@@ -511,7 +493,7 @@ A tooltip allows a user to see hints when they hover over an item indicating the
 
 * Font
     - Roboto Regular.
-    - Font size: 14px.
+    - Font size: 14px (Range #1), 16px (Range #2), 18px (Range #3).
     - Font color: Dark gray (#231F20).
 * Background
     - White color rectangle.
@@ -561,8 +543,8 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 * Font
     - Roboto Bold.
-    - Font size: 20px.
-    - Font color: Dark Gray (#231F20).
+    - Font size: 20px (Range #1), 22px (Range #2), 24px (Range #3).
+    - Font color: Black.
 * Location
     - Workspace
     - Alerts
@@ -576,8 +558,8 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 * Font
     - Roboto Bold.
-    - Font size: 16px.
-    - Font color: Dark Gray (#231F20).
+    - Font size: 16px (Range #1), 18px (Range #2), 20px (Range #3).
+    - Font color: Black.
 * Location
     - Workspace
     - Alerts
@@ -633,13 +615,26 @@ Selected: One, more or all the checkboxes will be checked and the actions set wi
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-08.png[]
 
-4.4 Combination and Grouping
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Combination*
 
-UI elements can be combined and grouped. This means that is posible that a single element can not work alone. Almost all combinations are possible while the grouping is given only in the tables.
+One common combination will be buttons/checkboxes/text fields + table. Buttons can work as filters to the table, as an in-page menu, as a way to see table's results or as a modifier. They should be located above the table so the user can see them quickly and know his/her possibilities, also because the number of results is unknown. There can be cases in which buttons or checkboxes can be at the bottom of the table, this can happen only when more than three options are required:
 
-4.4.1 Combinations
-^^^^^^^^^^^^^^^^^^
+Up to three buttons:
 
-4.4.2 Grouping
-^^^^^^^^^^^^^^
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/combinations-01.png[]
+
+More than three buttons:
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/combinations-02.png[]
+
+*Grouping*
+
+*Combinations, prevously submitted, are not taken under the grouping concept, although they can cause confusion.
+
+When a specific UI element (or combination of elements) is completely related to a table, will be grouped using a thin line. The line will be 1px, with a 5px rounded edges only in the upper corners, in a #-2 Green color.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/grouping-01.png[]
+
+When there is no more information displayed on the screen than the table and the related UI element (or combination of elements), is not neccessary to group them with a line.
+
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/grouping-02.png[]

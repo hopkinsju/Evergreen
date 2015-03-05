@@ -35,14 +35,9 @@ Index
 [black]*3. Visual Design*
 
 * *3.1* Color
-    - *3.1.1* Evergreen's Green
-    - *3.1.2* Prominent Orange
-    - *3.1.3* Wrong Red
-    - *3.1.4* Positive Green
-    - *3.1.5* Informative Blue
-    - *3.1.6* Insecure Purple
-    - *3.1.7* Action Brown
-    - *3.1.8* Grey Scale
+    - *3.1.1* Color Palette
+    - *3.1.2* Color Layers (Structure)
+    - *3.1.3* Color Meaning (Popups)
 * *3.2* Typography
     - *3.2.1* Type Color
 * *3.3* Iconography
@@ -51,49 +46,19 @@ Index
 
 * *4.1* Input Controls
     - *4.1.1* Buttons
-        ** *4.1.1.1* Specs
-        ** *4.1.1.2* Metrics
-        ** *4.1.1.3* State
     - *4.1.2* Checkboxes
-        ** *4.1.2.2* State
     - *4.1.3* Expand/collapse
     - *4.1.4* Dropdown Menu
-        ** *4.1.4.1* Specs
-        ** *4.1.4.2* Metrics
     - *4.1.5* Date Pickers
-        ** *4.1.5.1* Metrics
     - *4.1.6* Toggles
-        ** *4.1.6.1* Metrics
     - *4.1.7* Text fields
-        ** *4.1.7.1* Specs
-        ** *4.1.7.2* Metrics
-        ** *4.1.7.3* State
     - *4.1.8* Forms
-        ** *4.1.8.1* Specs
-        ** *4.1.8.2* Metrics
-	- *4.1.9 Radio Buttons
-		** *4.1.9.1* States
-        
-* *4.2* Navigational Components
-    - *4.2.1* Tabs
-        ** *4.2.1.1* Specs
-        ** *4.2.1.2* Metrics
-    - *4.2.2* Network Indicator Activity
-        ** *4.2.2.1* Specs
-        ** *4.2.2.2* Metrics
-        ** *4.2.2.3* Effect
-    - *4.2.3* Menu Selector
-        ** *4.2.3.1* Specs
-        ** *4.2.3.2* Metrics
+	- *4.1.9* Radio Buttons
+        * *4.2* Navigational Components
+    - *4.2.1* Network Indicator Activity
+    - *4.2.2* Menu Selector
 * *4.3* Informational Components
     - *4.3.1* Tool Tips
-        ** *4.3.1.1* Specs
     - *4.3.2* Dividers
-        ** *4.3.2.1* Specs
     - *4.3.3* Subheaders
-        ** *4.3.3.1* Specs
     - *4.3.4* Tables
-        ** *4.3.4.1* Structure
-        ** *4.3.4.1* Metrics
-
-[black]*5. Common Features*

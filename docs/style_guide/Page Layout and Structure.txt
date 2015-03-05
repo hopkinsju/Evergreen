@@ -44,7 +44,7 @@ The UI without context will be composed of five main elements:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure/structure-01.png[]
 
-[black]*Program Bar*: It is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts or any action regarding to this criteria, located on the right side of this header.
+[black]*Program Bar*: It is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts, account configuration or any action regarding to this criteria, located on the right side of this header.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc2.png[]
 
@@ -99,7 +99,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 Tabs are elements where the content is separated into different panes, and each pane is viewable one at a time. The user requests content to be displayed by clicking the content’s corresponding tab control. They could be understood as a sub menu. If it works as a tab bar, each tab's title type will measure the same as the body's typography size and be regular. Each pane will be limited by a white thin line.
 
-image:[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-03.png[]
 
 [black]*Workspace*: The information should be presented consistently in all the different screens of the web application, that´s why content (text, form, list, table, etc) will be shown in this limited area. Margins and grids must be respected.
 
@@ -108,7 +108,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 Metrics
 +++++++
 
-Some metrics that need to be respected are the distance between the workspace and the bar above of it and with the footer below of it. Also, both sides 3em margins.
+Some metrics that need to be respected are the distance between the workspace and the bar above of it and with the footer below of it (1em). Also, both sides 3em margins.
 
 [black]*Footer*: Being an open source software project involves another type of perception regarding the product / service provided. A brief description about the license used and the current year to show that is updated.
 
@@ -142,9 +142,9 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 The icons region need some explanations:
 
 * The main icon set used is "FatCow", width = 2em.
-* The maximum amount of icons (with their respective entries) is eight.
+* The maximum amount of icons (with their respective entries) is six.
 * Icons set must be left aliged.
-* The presence of the hamburger icon (in the right side of the context bar) represents that there are more possible actions than the eight shown.
+* The presence of the hamburger icon (in the right side of the context bar) represents that there are more possible actions than the six shown.
 * If the number of actions that can be performed to the context is less than eight, the hamburger icon will not be displayed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/context%20bar-02.png[]
@@ -158,30 +158,30 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 The layout template or grid will be orthogonal. This template will be adapted (scalable) to different screen resolutions. With context: 
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/template-06.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-06.png[]
 
 Without context:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/template-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-04.png[]
 
 2.3.1 Metrics
 ^^^^^^^^^^^^^
 
 Horizontal margin will be 3em in both sides of the UI.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/template-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-05.png[]
 
 The general structure is divided into three main columns. These columns define the location of the content in the workspace. There are secondary baselines that create a smaller subarea if neccessary.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/template-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-02.png[]
 
 Depending on the presence or absence of context the workspace region will vary. With context:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/template-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-01.png[]
 
 Without context:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/template-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-03.png[]
 
 2.4 Popups metrics and structure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
