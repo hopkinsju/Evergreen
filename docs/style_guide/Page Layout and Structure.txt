@@ -82,7 +82,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 Each module is separated by a thin white line that will make each module work like a button. 
 
-[black]*Title/Action Bar*: To locate the user is precise to have each module title in sight. This bar will contain the module title in left alignment. This bar is also prepare to handle with tabs and it contains buttons. This means that it has the purpose of  locate the user and trigger actions that apply to the entire page.
+[black]*Title/Action Bar*: To locate the user is precise to have each module title in sight. This bar will contain the module title in left alignment. This bar is also prepare to handle with tabs and it contains buttons. This means that it has the purpose of  locate the user and trigger actions that apply to the entire page. Title/Action Bar will be stick at the top of the screen as users scroll.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc4.png[]
 
@@ -91,13 +91,15 @@ Metrics
 
 Module title´s font size will be in Range #1: 20px bold; in Range #2: 22px bold and in Range #3: 24px bold. Every text will be left aligned with a left margin of 3em.
 
-If it works as a tab bar, each tab's title type will measure the same as the body's typography size and be regular.
-
-Action buttons will be located in the right side respecting the 3em margin.
+Action buttons will be located in the right side respecting the 3em margin or next to the title.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-01.png[]
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-02.png[]
+
+Tabs are elements where the content is separated into different panes, and each pane is viewable one at a time. The user requests content to be displayed by clicking the content’s corresponding tab control. They could be understood as a sub menu. If it works as a tab bar, each tab's title type will measure the same as the body's typography size and be regular. Each pane will be limited by a white thin line.
+
+image:[]
 
 [black]*Workspace*: The information should be presented consistently in all the different screens of the web application, that´s why content (text, form, list, table, etc) will be shown in this limited area. Margins and grids must be respected.
 
