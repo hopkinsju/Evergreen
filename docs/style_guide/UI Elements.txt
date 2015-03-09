@@ -1,13 +1,13 @@
 4. UI Elements
 --------------
 
-In a single UI design is always a wide variety of components like "Buttons, Lists, Forms, Menus, Tables, etc".
+A single UI design contains a wide variety of components such as buttons, lists, forms, menus, and tables.
 
-By giving them a guideline to follow, designers and developers will achieve consistency. These elements are divided in:
+By giving them a guideline to follow, designers and developers will achieve consistency. These elements can be divided into three groups:
 
-* Input Controls: These elements involve data input, modifications and call to action.
+* Input Controls: These elements involve data input, modifications, and calls to action.
 * Navigational Components: Elements that help the user to locate and understand the path between the different user interfaces of the application.
-* Informational Components: Enable the organization and clarity of the information provided in the screens.
+* Informational Components: These enhance the organization and clarity of the information provided in the screens.
 
 Users have become familiar with elements acting in a certain way, so choosing to adopt those elements when appropriate will help with task completion, efficiency, and satisfaction.
 
@@ -17,11 +17,11 @@ Users have become familiar with elements acting in a certain way, so choosing to
 4.1.1 Buttons
 ^^^^^^^^^^^^^
 
-They are a text or image that illustrate an action and invite the user to click it. There are three types of buttons:
+Buttons are a stylized text or image that illustrate an action and invite the user to click it. There are three types of buttons:
 
-* Primary Button: This button will be the most used. Alone or accompanied by other type of buttons.
-* Accent Button: Used jointly with the primary button to create a noticeable difference between buttons, therefore, both options are important, is one or the other.
-* Flat Button: This type of button is not composed by a background. It is used in structural bars  mainly.
+* Primary Button: This button will be the most used, alone or accompanied by other types of buttons.
+* Accent Button: Used jointly with the primary button to create a noticeable difference between buttons.
+* Flat Button: This type of button is not outlined by a background. It is used mainly in structural bars.
 
 *Specs*
 
@@ -34,7 +34,7 @@ They are a text or image that illustrate an action and invite the user to click 
 * Background
     - Rectangle with a 5px corner radius.
     - Lineal Gradient from # 0A5D8E to # 0A5582.
-	- Light will be always at the top of the button.
+	- Light will always be at the top of the button.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-01.png[]
 
@@ -47,7 +47,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 * Background
     - Rectangle with a 5px corner radius.
     - Lineal Gradient from # 1494CC to # 1588BB.
-	- Light will be always at the top of the button.
+	- Light will always be at the top of the button.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-04.png[]
 
@@ -70,7 +70,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 *Metrics*
 
-Any type of buttons will have a fixed height, while the width will vary along the word or icon containing.
+All buttons will have fixed heights, while the width will vary according to the word or icon each button contains.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-02.png[]
 
@@ -106,7 +106,7 @@ When pressing:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-07.png[]
 
-Gradient will be eliminate, so the background color will change to:
+Gradient will be eliminated, so the background color will change to:
 
 * Primary Button: #003354
 * Accent Button: #0B6A93
@@ -114,7 +114,7 @@ Gradient will be eliminate, so the background color will change to:
     - On a dark color background will be white in both states.
 	- On a light / white background will be dark gray in both states.
 
-Disable:
+Disabled:
 
 When a button is not available it will look like:
 
