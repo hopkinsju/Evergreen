@@ -1,13 +1,13 @@
 4. UI Elements
 --------------
 
-In a single UI design is always a wide variety of components like "Buttons, Lists, Forms, Menus, Tables, etc".
+A single UI design contains a wide variety of components such as buttons, lists, forms, menus, and tables.
 
-By giving them a guideline to follow, designers and developers will achieve consistency. These elements are divided in:
+By giving them a guideline to follow, designers and developers will achieve consistency. These elements can be divided into three groups:
 
-* Input Controls: These elements involve data input, modifications and call to action.
+* Input Controls: These elements involve data input, modifications, and calls to action.
 * Navigational Components: Elements that help the user to locate and understand the path between the different user interfaces of the application.
-* Informational Components: Enable the organization and clarity of the information provided in the screens.
+* Informational Components: These enhance the organization and clarity of the information provided in the screens.
 
 Users have become familiar with elements acting in a certain way, so choosing to adopt those elements when appropriate will help with task completion, efficiency, and satisfaction.
 
@@ -17,11 +17,11 @@ Users have become familiar with elements acting in a certain way, so choosing to
 4.1.1 Buttons
 ^^^^^^^^^^^^^
 
-They are a text or image that illustrate an action and invite the user to click it. There are three types of buttons:
+Buttons are a stylized text or image that illustrate an action and invite the user to click it. There are three types of buttons:
 
-* Primary Button: This button will be the most used. Alone or accompanied by other type of buttons.
-* Accent Button: Used jointly with the primary button to create a noticeable difference between buttons, therefore, both options are important, is one or the other.
-* Flat Button: This type of button is not composed by a background. It is used in structural bars  mainly.
+* Primary Button: This button will be the most used, alone or accompanied by other types of buttons.
+* Accent Button: Used jointly with the primary button to create a noticeable difference between buttons.
+* Flat Button: This type of button is not outlined by a background. It is used mainly in structural bars.
 
 *Specs*
 
@@ -34,7 +34,7 @@ They are a text or image that illustrate an action and invite the user to click 
 * Background
     - Rectangle with a 5px corner radius.
     - Lineal Gradient from # 0A5D8E to # 0A5582.
-	- Light will be always at the top of the button.
+	- Light will always be at the top of the button.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-01.png[]
 
@@ -47,7 +47,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 * Background
     - Rectangle with a 5px corner radius.
     - Lineal Gradient from # 1494CC to # 1588BB.
-	- Light will be always at the top of the button.
+	- Light will always be at the top of the button.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-04.png[]
 
@@ -70,7 +70,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 *Metrics*
 
-Any type of buttons will have a fixed height, while the width will vary along the word or icon containing.
+All buttons will have fixed heights, while the width will vary according to the word or icon each button contains.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-02.png[]
 
@@ -106,7 +106,7 @@ When pressing:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-07.png[]
 
-Gradient will be eliminate, so the background color will change to:
+Gradient will be eliminated, so the background color will change to:
 
 * Primary Button: #003354
 * Accent Button: #0B6A93
@@ -114,7 +114,7 @@ Gradient will be eliminate, so the background color will change to:
     - On a dark color background will be white in both states.
 	- On a light / white background will be dark gray in both states.
 
-Disable:
+Disabled:
 
 When a button is not available it will look like:
 
@@ -125,7 +125,7 @@ This is achieved by applying opacity=0.5 to the text/icon/both in primary, accen
 4.1.2 Checkboxes
 ^^^^^^^^^^^^^^^^
 
-Allows the user to select one or more options from a set. Checkboxes are going to be located:
+Checkboxes allow the user to select one or more options from a set. Checkboxes should be located:
 
 * At the right side of a word if it is the only option that the user can check
 
@@ -135,11 +135,11 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/checkbox-02.png[]
 
-* Alone. They will be visually separated from the text, however, they correspond to a specific option.
+* Alone. They will be visually separated from the text; however, they correspond to a specific option.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/checkbox-05.png[]
 
-It is going to be used the default input type="checkbox" to apply this element in a UI. Every checkbox will be located 1em from the word (left or right side) or in a center alignment.
+The default input type="checkbox" should be used to apply this element to the UI. Every checkbox will be located 1em from the word (to the left or right side) or in a center alignment.
 
 *State*
 
@@ -154,7 +154,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 4.1.3 Expand/collapse
 ^^^^^^^^^^^^^^^^^^^^^
 
-When there is lack of space or there is information that can be hidden momentarily to perform other actions but should be easily accessible, this resource is used. This control is illustrated by an icon from the Bootstrap Glyphicon Halflings set:
+When there is lack of space, or there is information that can be hidden momentarily to perform other actions yet remain easily accessible, this concept should be applied. This control is illustrated by an icon from the Bootstrap Glyphicon Halflings set:
 
 * glyphicon-resize-full:
 
@@ -172,24 +172,22 @@ Inside a bar:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-03.png[]
 
-Information will be within a white rectangle with a faint shadow around it. Notice that the content in the workspace is not covered, it was accommodated in the remaining space.
+Information will be within a white rectangle with a faint shadow around it. Notice that the content in the workspace is not covered; it was adjusted to fit in the remaining space.
 
 In the workspace:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-04.png[]
 
-information will be displayed as plain text.
-
 4.1.4 Dropdown Menu
 ^^^^^^^^^^^^^^^^^^^
 
-Dropdown menu allow the user to select an item at a time and perform different activities. It is also a way to save space. There are two types:
+Dropdown menus allow the user to select an item at a time and perform different activities. It is also a way to save space. There are two types:
 
-* With icons: Used when the items involves primary actions. These actions will imply modifications on a specific element permanently or a redirection to different parts of the web site.
+* With selection icons: Used when the selections are primary actions. These actions will generally result in a new interface being displayed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/dropdown%20menu-01.png[]
 
-* Without icons: To display secondary actions. Actions that can be applied in a specific element but will not modify the content on the screen.
+* Without icons: Used to display secondary actions. Such actions are applied to a specific element and may therefore change the contents of the screen, but will not result in a new interface.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/dropdown%20menu-02.png[]
 
@@ -208,7 +206,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 *Metrics*
 
-There are no specific measures. They will depend on the content of each dropdown menu. But metrics are determine with margins between objects:
+There are no specific measurements for the menu size; it will depend on the content of each dropdown menu. But metrics do determine with margins between objects:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/dropdown%20menu-03.png[]
 
@@ -217,30 +215,30 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 4.1.5 Date Pickers
 ^^^^^^^^^^^^^^^^^^
 
-Pickers allow the user to select a date. The information is consistently formatted and input into the system.
+When pickers are used to select a date, the information is consistently formatted and input into the system.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/pickers-01.png[]
 
-It will be composed by a calendar of the current month and a toggle to select different months.
+The picker will be composed of a calendar of the current month and toggles to select different months.
 
 *Metrics*
 
-The picker itself will be # 0 Blue (# 137DAB) and its measure:
+The picker itself will be # 0 Blue (# 137DAB), and its measure will be 1em square:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/pickers-03.png[]
 
-In its context:
+In context:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/pickers-02.png[]
 
 4.1.6 Toggles
 ^^^^^^^^^^^^^
 
-Toggles allow the user to change between some options one by one. The arrow pointing to the left symbolizes going backwards; the arrow pointing to the right represents going forwards.
+Toggles allow the user to cycle through options one by one. The arrow pointing to the left symbolizes going backwards; the arrow pointing to the right represents going forwards.
 There are two different types:
 
 * Common toggle: Illustrated by two little buttons with a left and right arrow within each background. 
-* Tips toggle: Its structure, metrics and specs are the same as flat buttons, the difference is that in a normal state means it is inactive and when it is yellow means it is active. This type of toggle is applied to a specific action: tooltips in the UI. It is located in the right side of the title/action bar.
+* Tips toggle: Its structure, metrics and specs are the same as flat buttons, the difference is that in a normal state means it is inactive and when it is yellow means it is active. This type of toggle is applied to a specific action: tooltips in the UI. It is located on the right side of the title/action bar.
 
 *Metrics*
 
@@ -248,7 +246,7 @@ Common toggles will measure:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/toggles-01.png[]
 
-Each arrow will be center aligned.It will measure:
+Each arrow will be center aligned. They will measure:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/toggles-02.png[]
 
@@ -269,7 +267,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 4.1.7 Text fields
 ^^^^^^^^^^^^^^^^^
 
-Text fields allow users to enter data.  It can allow either a single line or multiple lines of text. There are different types.
+Text fields allow users to enter data.  They can allow either a single line or multiple lines of text. There are different types.
 
 *Specs*
 
@@ -291,25 +289,25 @@ Text fields allow users to enter data.  It can allow either a single line or mul
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-01.png[]
 
-Text fields with a single line would have a helping text to guide the user to enter the correct information in them. The text will be 1em from the left border:
+Text fields with a single line can have a help text to guide the user to enter the correct information in them. The text will be 1em from the left border:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-03.png[]
 
 [black]*Multiple lines:*
 
-These metrics are defined by default. The text field would have the possibility of resizeing according to the user needs (represented in the bottom right corner).
+These metrics are defined as a default. The text field would have the possibility of being manually resized according to the user needs (with the resize handle represented in the bottom right corner).
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-02.png[]
 
 [black]*Dropdown Field:*
 
-When users can choose between a set of options a dropdown menu will be displayed.
+When users can choose between a set of options, a dropdown field will be displayed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-04.png[]
 
 [black]*Toggle Field:*
 
-This type of text field allows users to change between consecutive options, giving the possibility of going backwards and forwards.
+This type of text field allows users to cycle through consecutive options, giving the possibility of going backwards and forwards.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-07.png[]
 
@@ -323,18 +321,18 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-05.png[]
 
-[black]*Filled:* Once it is completed or the option is selected (in the dropdown or toggle field types), will look like this:
+[black]*Filled:* Once it is completed or the option is selected (in the dropdown or toggle field types), it will look like:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-06.png[]
 
 The difference is the text color: light gray (# BCBEC0) turns into dark gray (#231F20).
 
-*Clarification:* In the multiple lines text field the text will be written always in dark gray (#231F20), this means that it doesn´t have different states.
+*Clarification:* In the multiple lines text field, the text will be written always in dark gray (#231F20). It doesn´t have different states.
 
 4.1.8 Forms
 ^^^^^^^^^^^
 
-This element allows a user to enter data which is sent to a server for processing. They can also be used to retrieve information from a server. Forms are composed by labels, text fields and buttons or text fields an buttons.
+Forms allow a user to enter data which is sent to a server for processing. They can also be used to retrieve information from a server. They are composed of labels, text fields, and buttons, though in some cases, the labels can be omitted.
 
 *Specs*
 
@@ -346,27 +344,27 @@ This element allows a user to enter data which is sent to a server for processin
 
 *Metrics and Types*
 
-[black]*Single Row:* When one or two fields are needed to performa a spacific action, it/they is/are going to work in a single row. Text fields requires helping text to guide the user introduce the correct data. Distance between field and buttons will be 0,5em.
+[black]*Single Row:* When only one or two fields are needed to perform a specific action, they may be displayed in a single row. In such cases, help text may be placed within the field to guide the user in lieu of a label. Distance between fields and buttons will be 0.5em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-02.png[]
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-01.png[]
 
-[black]*With Label:* A label is going to be next to each text field when the form requires three fields. That label will be the indication of the information to enter in the text field; it is left aligned because this makes easier some specific needs like scanning for a particular field. Help text inside the text field can work as an example of what to introduce or that the field is required or optional; it is not neccessary to use it in every case, just when needed.
+[black]*With Label:* A label should be used next to each text field when the form requires three or more fields. That label will be the indication of the information to enter in the text field.  Labels are left aligned to facilitate scanning for a particular field. Help text inside the text field can work as an example of what to introduce or to specify that the field is required or optional. It is not neccessary to use it in every case, but only when additional clarity is required.
 
-From three field will be located below each other. Buttons are located in the bottom of the fields in a right alignment.
+In forms of three or more fields, the fields will be arranged into a single column. Buttons are located at the bottom of the form in a right alignment.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-03.png[]
 
-[black]*Large forms:* Forms that are divided into more than one related sections are called large forms. They are composed by subheaders, lables, text fiels and, sometimes, by buttons (remember: if large UI elements occupy the whole screen, actions that are applied to the entire page should be located in the title/action bar).
+[black]*Large forms:* Forms that are divided into more than one related sections are called large forms. They are composed of subheaders, lables, text fields, and sometimes buttons. (Remember: if forms or other large UI elements occupy the entire workspace, actions that are applied to it (i.e. the entire page) should be located in the title/action bar.)
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-04.png[]
 
-Large forms need space, so they are located in the workspace and are not accompanied by any other element due to the large number of elements involved in the page. They are presented in a single column. Metrics of fields, subheaders and labels are:
+Large forms need space, so they are located in the workspace and are not accompanied by any other content due to the large number of elements involved in the page. They are presented in a single column. Metrics of fields, subheaders and labels are:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-05.png[]
 
-There are a table of content, a search field and some filters in the right top of the large form. Those elements help users find specific fields or  manage the visualization of needed fields. Is very usefull when forms are too large and exceed the height of the screen. By clicking each item in the table of contents, users can get to that specific portion of the form.
+There are a table of contents, a search field, and some filters to the upper right of the large form. Those elements help users find specific fields, or manage the visualization of needed fields. It is most useful when forms are too large and exceed the height of the screen. By clicking each item in the table of contents, users can get to that specific portion of the form.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-06.png[]
 
@@ -379,7 +377,7 @@ When there is only one option the radio button will be located at the right side
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/radio%20button-01.png[]
 
-When there are more than one options, the radio button will be located at the left side of the text:
+When there are more than one option, the radio button will be located at the left side of the text:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/radio%20button-02.png[]
 
@@ -399,9 +397,9 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 4.2.1 Network Indicator Activity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Feedback is a very important source to use in user interfaces. Users need to know everytime what is happening when required something. A spiner will let the user know that the system is working to avoid frustration. 
+Feedback is a very important source to use in user interfaces. Users need to know what is happening with every interaction they make. A spinner will let the user know that the system is working, which avoids frustration. 
 
-The network indicator activity element will be composed by a spiner, a message and will be shown as a popup.
+The network indicator activity element will be composed of a spinner, a message, and will be shown as a popup.
 
 *Specs*
 
@@ -412,7 +410,7 @@ The network indicator activity element will be composed by a spiner, a message a
 * Background
     - White color rectangle.
 	- Shadow around the rectangle´s perimeter.
-* Spiner colors
+* Spinner colors
     - Green (# 00985F).
     - Orange (# F7941E).
 
@@ -435,7 +433,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 4.2.2 Menu Selector
 ^^^^^^^^^^^^^^^^^^^
 
-This element help users know where they are by highlighting the pane of a menu or tab displayed in the screen. It is going to be adapted to the diferent sizes of menus or tabs. This UI element will force the bars to cum 4px below to give rise to snap.
+This element helps users know where they are by highlighting the pane of a menu or tab displayed on the screen. It is going to be adapted to the different sizes of menus or tabs. This UI element will also add a 4px border to the bottom of the highlighted row.
 
 *Specs*
 
@@ -445,13 +443,12 @@ This element help users know where they are by highlighting the pane of a menu o
 * Shape
     - Rectangle.
     - Straight edges.
-* Snap
+* Size
     - 4px of height, screen width.
-    - Color: # -2 Green or # 0 Blue.
 
 *Metrics*
 
-Menu selector metrics will vary according to where they are. In menus will have the menu´s height and margin=1em; in tabs, tab´s height and 0,5ems of margin to both sides:
+Menu selector metrics will vary according to where they are. In menus, they will have the menu´s height and margin=1em; in tabs, the tab´s height and 0.5ems of margin on both sides:
 
 Module Bar:
 
@@ -501,7 +498,7 @@ A tooltip allows a user to see hints when they hover over an item indicating the
 * Margin
     - 1em in both left and right sides, from the border to the text.
 * Metrics
-    - Will vary depending on the text. It can contain a single line or multiple lines. It measures can not be greater than width=12,5em and height=10em or less to height=2,25em. 
+    - Will vary depending on the text. It can contain a single line or multiple lines. It measures can not be greater than width=12.5em and height=10em or less than height=2.25em. 
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tooltip-01.png[]
 
@@ -510,7 +507,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 4.3.2 Dividers
 ^^^^^^^^^^^^^^
 
-Dividers ar a thin gray line that help dividing spaces or regions of the UI to organize and make the information displayed clearer.
+Dividers are thin gray lines that help divide spaces or regions of the UI to organize and make the information display more clearly.
 
 *Specs*
 
@@ -523,14 +520,14 @@ Dividers ar a thin gray line that help dividing spaces or regions of the UI to o
     - Forms
     - Alerts
 * Usage
-    - To separate different criteria within a set.
+    - To separate different items within a set.
     
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/divider-01.png[]
 
 4.3.3 Subheaders
 ^^^^^^^^^^^^^^^^
 
-Element that functions as a subtitle within a module. It is located only in the workspace and alerts. There are two types: 
+Subheaders function as subtitles within a module. They are located only in the workspace and alerts. There are two types: 
 
 * Primary Subheader: A combination of text and divider.
 * Secondary Subheader: Bold text.
@@ -569,37 +566,37 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 4.3.4 Tables
 ^^^^^^^^^^^^
 
-This UI element is one of the most used by the Evergreen web staff client. It is used to retrieve the required information and show all the results of a search orderly. Tables are resizable, they adapt to the whole screen width or to the remaining space in the workspace. They can also resize it columns default width.
+The table UI element is one of the most frequently used within the Evergreen web staff client. It retrieves required information and shows all the results in an orderly way. Tables are resizable; they adapt to the whole screen width or to the remaining space in the workspace. One can also resize the default width of individual columns.
 
 *Structure*
 
-Tables are composed by three main areas:
+Tables are composed of three main areas:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-01.png[]
 
-* [black]*Table Bar:* A bar that gives the possibility of adapting the manner in which the information is displayed according to the user's need (cog icon). It will show a title, to locate the user; an Action disabled set, which applies only to the results; a Page navigator, to give freedom to visualize the information; and a Table configuration icon, to change the default table view according to the user wishes and some other options that can be made on or from the table.
+* [black]*Table Bar:* This bar contains a wealth of information and features for every table. It will show a title to locate the user; an Action set which can be applied to the rows; a Page navigator to work through the set of information; and a Table configuration icon (cog icon) to change the default table view and other configuration options that apply to every table.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-02.png[]
 
-Something important to highlight is the action set. It is composed of three buttons, the first ones will be the two most common actions, the third is a trigger button to open more actions (show as a dropdown menu).
+Something important to highlight is the action set. It is composed of up to three buttons; the first two will be the most common actions, and the third is a trigger button to open more actions (shown as a dropdown menu).
 
-* [black]*Columns Bar:* This section will display the a "Check all results" checkbox to implement a specific action - or set of actions- on all the results retrieved; a "Number of result" column to facilitate the observation of information and the different parts in which the result is going to be separate in.
+* [black]*Columns Bar:* This section will display the a "Check all results" checkbox to implement a specific action - or set of actions- on all the results retrieved, a "Number of result" column to facilitate the observation of information, and the column headers for each field being displayed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-03.png[]
 
-* [black]*Table Results:* Where all the results retrieved are exposed. The information will be presented according to the default or options selected by the user.
+* [black]*Table Results:* Where all the results retrieved are exposed. The information will be presented according to either the default configuration or options selected by the user.
 
 *Metrics*
 
-Table bar: Height of 2,25em. #-2 Green background color. Each icon used in this bar will have width=1em.
+Table bar: Height of 2.25em. #-2 Green background color. Each icon used in this bar will have width=1em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-04.png[]
 
-Columns Bar: Height of 2,25em.
+Columns Bar: Height of 2.25em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-05.png[]
 
-Table Results: Each row will have 2,25em of height. As a visual detail a row of through should have a #-2 Green background color with opacity=0.2 to help the visualization of the information starting from the first row and so on. The amount of columns will be always 8 (without the number of column and the checkbox columns) as a default.
+Table Results: Each row will have 2.25em of height. As a visual detail, every other row should have a #-2 Green background color with opacity=0.2 to help the visualization of the information, starting from the first row. The number of columns will always be 8 (without the number of column and the checkbox columns) as a default.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-06.png[]
 
@@ -607,17 +604,17 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 Table results have two posible states.
 
-Default: Checkboxes are unchecked and actions set is disable.
+Default: Checkboxes are unchecked and the actions set is disabled.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-07.png[]
 
-Selected: One, more or all the checkboxes will be checked and the actions set will be enable.
+Selected: One or more checkboxes will be checked and the actions set will be enabled.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-08.png[]
 
 *Combination*
 
-One common combination will be buttons/checkboxes/text fields + table. Buttons can work as filters to the table, as an in-page menu, as a way to see table's results or as a modifier. They should be located above the table so the user can see them quickly and know his/her possibilities, also because the number of results is unknown. There can be cases in which buttons or checkboxes can be at the bottom of the table, this can happen only when more than three options are required:
+One common combination will be buttons/checkboxes/text fields + table. Buttons can work as filters to the table, as an in-page menu, as a way to change the table's results, or as a modifier. They should be located above the table so the user can see them quickly and know the possibilities, and because options at the bottom may end up off the screen. There can be cases in which buttons or checkboxes are placed at the bottom of the table, but this should happen only when more than three options are required:
 
 Up to three buttons:
 
@@ -629,9 +626,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 *Grouping*
 
-*Combinations, prevously submitted, are not taken under the grouping concept, although they can cause confusion.
-
-When a specific UI element (or combination of elements) is completely related to a table, will be grouped using a thin line. The line will be 1px, with a 5px rounded edges only in the upper corners, in a #-2 Green color.
+When a specific UI element (or combination of elements) is completely related to a table, and is displayed in conjunction with elements *not* directly tied to the table, the related element (or elements) should be grouped with the table by a thin line. The line will be 1px, with a 5px rounded edges only in the upper corners, in a #-2 Green color.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/grouping-01.png[]
 

@@ -1,20 +1,20 @@
 2. Page Layout and Structure
 ----------------------------
 
-This section will provide the basic guidelines to develop a consistent user interface throughout the whole application. A consistent UI has the benefit of: 
+This section will provide the basic guidelines to develop a consistent user interface throughout the whole application. A consistent UI has the following benefits: 
 
-* When designing, removes the need to make the same decision time and again;
-* When coding, enables the use of templates and pre-defined snippets of code;
-* It also gives the possibility to facilitate UI development create a scalable application.
+* When designing, it removes the need to make the same decision repeatedly;
+* When coding, it enables the use of templates and pre-defined snippets of code;
+* It also gives the possibility to facilitate UI development to create a scalable application.
 
 2.1 Metrics
 ~~~~~~~~~~~
 
-Metrics were designed for three different screen resolutions. As the screen resolution increases, the measures are changing accordingly. This metrics have to be respected within the web staff client, this will bring consistency, order and a neat UI design.
+Metrics were designed for three different screen resolutions. As the screen resolution increases, the measures change accordingly. These metrics have to be respected within the web staff client, where doing so will bring consistency, order, and a neat UI design.
 
-All the metrics are going to be used for all the screen resolutions depending each range. The base of each measure will be the typography size of the body. Metrics are expressed in "ems".
+All the metrics are going to be used for all the screen resolutions within each range. The base of each measure will be the typography size of the body. Metrics are expressed in "ems".
 
-There are also two more different sizes of typography in a single UI design. This means that the body typography will determine the UI measures and the size of text within the web staff client, however, there are two different sizes, metrics will be maintained based on the typeface size of the body but only the typeface size will change. 
+Besides the body, there are two additional sizes of typography in the UI design. The body typography will determine the UI measurements and the size of text within the majority of the web staff client. Where the two additional text sizes are used, UI metrics will still be maintained based on the typeface size of the body, and only the typeface size will change. 
 
 2.1.1 Ranges
 ^^^^^^^^^^^^
@@ -32,26 +32,26 @@ From now on "Range #2". Taking 18px as the default typography size of the body, 
 From now on "Range #3". Taking 20px as the default typography size of the body, [black]_1em is going to be equal to 20px always_.
 
 
-2.2 Page general structure
+2.2 General Page Structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The UI general structure is divided into two types of user interfaces according to the information displayed. This difference is defined by the presence or absence of context. Context is understood as an entity with a given state to which a set of actions can be applied and, in consequence, modify its state.
+The UI general structure is divided into two types of user interfaces depending on the information displayed. This difference is defined by the presence or absence of context. Context is understood as an entity with a given state to which a set of actions can be applied and, in consequence, modify its state.
 
-2.2.1 Without context
+2.2.1 Without Context
 ^^^^^^^^^^^^^^^^^^^^^
 
 The UI without context will be composed of five main elements:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure/structure-01.png[]
 
-[black]*Program Bar*: It is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts, account configuration or any action regarding to this criteria, located on the right side of this header.
+[black]*Program Bar*: It is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool used often. This section will always be located at the very top of the page. Evegreen's logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts, apply configuration options, or perform any other action related to the user's account. This button is located on the right side of this header.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc2.png[]
 
 Metrics
 +++++++
 
-The program bar will have 3em of height and its width will be adapted to the screen resolution width. Margins will be 3em.
+The program bar will have a height of 3em and its width will be adapted to the screen resolution width. Margins will be 3em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/program%20bar-01.png[]
 
@@ -63,14 +63,14 @@ The user/library button will be as large as the text is; also the distance betwe
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/program%20bar-03.png[]
 
-[black]*Module Bar*: All the actions that can be performed across the web application are divided and grouped into modules. Those modules are located in this bar present in all the web app screens. By clicking the modules a dropdown menu will be displayed. It can contain as many modules as needed.
+[black]*Module Bar*: All the actions that can be performed across the web application are divided and grouped into modules. Those modules are located in this bar present in all the web app screens. When clicking the modules, a dropdown menu will be displayed. The bar can contain as many modules as needed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc3.png[]
 
 Metrics
 +++++++
 
-The module bar will have 2,5em of height and its width will be adapted to the screen resolution. Margin will be 3em.
+The module bar will have a height of 2.5em and its width will be adapted to the screen resolution. Margin will be 3em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20bar-01.png[]
 
@@ -82,42 +82,39 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 Each module is separated by a thin white line that will make each module work like a button. 
 
-[black]*Title/Action Bar*: To locate the user is precise to have each module title in sight. This bar will contain the module title in left alignment. This bar is also prepare to handle with tabs and it contains buttons. This means that it has the purpose of  locate the user and trigger actions that apply to the entire page. Title/Action Bar will be stick at the top of the screen as users scroll.
+[black]*Title/Action Bar*: The user must be able to easily locate the title of the current module activity. This bar will contain the activity title in left alignment. This bar is also able to handle tabs, and sometimes contains buttons. The bar's overall purpose is to locate the user and trigger actions that apply to the entire page. The Title/Action Bar will stick to the top of the screen as the user scrolls.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc4.png[]
 
 Metrics
 +++++++
 
-Module title´s font size will be in Range #1: 20px bold; in Range #2: 22px bold and in Range #3: 24px bold. Every text will be left aligned with a left margin of 3em.
+The activity title's font size will be in Range #1: 20px bold; in Range #2: 22px bold; and in Range #3: 24px bold. Every title will be left aligned with a left margin of 3em.
 
-Action buttons will be located in the right side respecting the 3em margin or next to the title.
+Action buttons will be located on the right side (respecting the 3em margin) or next to the title.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-01.png[]
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-02.png[]
 
-Tabs are elements where the content is separated into different panes, and each pane is viewable one at a time. The user requests content to be displayed by clicking the content’s corresponding tab control. They could be understood as a sub menu. If it works as a tab bar, each tab's title type will measure the same as the body's typography size and be regular. Each pane will be limited by a white thin line.
+Tabs are elements where the content is separated into different panes, and each pane is visible one at a time. The user requests content to be displayed by clicking the content's corresponding tab control. When functioning as a tab bar, each tab's title type will measure the same as the body's typography size in the regular weight. Each tab will be separate by a thin white line.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-03.png[]
 
-[black]*Workspace*: The information should be presented consistently in all the different screens of the web application, that´s why content (text, form, list, table, etc) will be shown in this limited area. Margins and grids must be respected.
+[black]*Workspace*: The information should be presented consistently in all the different screens of the web application.  Variable content (text, forms, lists, tables, etc) will be shown only in this limited area. Margins and grids must be respected.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc5.png[]
 
 Metrics
 +++++++
 
-Some metrics that need to be respected are the distance between the workspace and the bar above of it and with the footer below of it (1em). Also, both sides 3em margins.
+Some metrics that need to be respected are the distance between the workspace and the bar above it and the footer below it (1em). Also, both sides have 3em margins.
 
-[black]*Footer*: Being an open source software project involves another type of perception regarding the product / service provided. A brief description about the license used and the current year to show that is updated.
+[black]*Footer*: The fact of Evergreen being an open source software project should be communicated to the user. The footer will contain a brief description about the license used and also the most recent release year to show that it is regularly updated.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc6.png[]
 
-Metrics
-+++++++
-
-An important comment to do about text s that it will be 14px (Range #1)/ 16px (Range #2)/ 18px (Range #3) and will be aligned to the center of the footer:
+The text will be 14px (Range #1)/ 16px (Range #2)/ 18px (Range #3) and will be aligned to the center of the footer:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/footer-01.png[]
 
@@ -128,28 +125,28 @@ The general structure is the same with and without context, the only difference 
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure/structure-02.png[]
 
-[black]*Context Bar*: This bar will appear only when an action set could be apply to a specific context. The actions will be represented with an icon form the FatCow icon set.
+[black]*Context Bar*: This bar will appear only when an action set could be applied to a specific context. The actions will be represented with icons from the FatCow icon set.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc7.png[]
 
 Metrics
 +++++++
 
-A detail that should be mentioned is that the size of typography varies respect to the body only in the left section (where the context is mentioned). Every context will be written in 20px bold, while the subtitle type size is 14px. This subtitle will express some important details that are relevant to users.
+The size of typography varies with respect to the body only in the left section (where the context is mentioned). Every context will be written in 20px bold, while the subtitle type size is 14px. This subtitle will express some important details that are relevant to users.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/context%20bar-01.png[]
 
-The icons region need some explanations:
+The icon region requires some explanation:
 
 * The main icon set used is "FatCow", width = 2em.
-* The maximum amount of icons (with their respective entries) is six.
+* The maximum number of icons (with their respective entries, and including the hamburger icon) is seven.
 * Icons set must be left aliged.
-* The presence of the hamburger icon (in the right side of the context bar) represents that there are more possible actions than the six shown.
-* If the number of actions that can be performed to the context is less than eight, the hamburger icon will not be displayed.
+* The presence of the hamburger icon (in the right side of the context bar) represents that there are more possible actions beyond the six shown.
+* If the number of actions that can be performed to the context is fewer than eight, the hamburger icon will not be displayed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/context%20bar-02.png[]
 
-In the right edge of the context bar we can find a section called "Results Manager". It allows the possibility of returning to the UI where the table results is, going to the next or previous context one by one, or to the first or last one directly. It also gives the option of searching a new context. It will be displayed only when the context comes from a previous search in a search interface.
+In the right portion of the context bar we can find a section called the "Results Manager". It allows the possibility of returning to the UI where the search results are, going to the next or previous context one by one, or to the first or last one directly. It also gives the option of searching a new context. It will be displayed only when the context is arrived at from a search interface.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/context%20bar-03.png[]
 
@@ -167,7 +164,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 2.3.1 Metrics
 ^^^^^^^^^^^^^
 
-Horizontal margin will be 3em in both sides of the UI.
+Horizontal margin will be 3em on both sides of the UI.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-05.png[]
 
@@ -188,14 +185,14 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-03.png[]
 
-Metrics apply to all types of popups. Its structure:
+Metrics apply to all types of popups. Their structure:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-02.png[]
 
-It will be divided in two areas:
+Popups will be divided into two areas:
 
-* *Title Bar:* This bar will contain an icon from the Glyphicon set (it will be width = 2em) illustrating the meaning of its popup and the type of interaction it will be refering to, this is the title of the message displayed. Also, this bar will have different colors depending on the information it handles.
-* *Content Region:* The message itself will be contained in this area. The message will be expressed by text, action or both. Messages will be accompanied by buttons which will accept or cancel them.
+* *Title Bar:* This bar will contain an icon from the Glyphicon set (with width = 2em) illustrating the type of interaction, followed by the title of the message displayed. In addition, this bar will have different colors depending on the information it handles.
+* *Content Region:* The message itself will be contained in this area. The message will be expressed by text, UI elements, or both. Messages will be accompanied by buttons which will accept or cancel them.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-01.png[]
 
@@ -212,14 +209,14 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-07.png[]
 
-* *Success message:* Once the user has performed an action and this has been successfully. Title's background color: positive green.
+* *Success message:* Displayed when a user-requested action has been successfully completed. Title's background color: positive green.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-05.png[]
 
-* *Question message:* Sometimes the system will need a confirmation or a denail from the user to perform a specific action or process. Title's background color: insecure purple.
+* *Question message:* Sometimes the system will need a confirmation or information from the user to perform a specific action or process. Title's background color: insecure purple.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-06.png[]
 
-* *Action Alert:* Modal alert will provide additional fuctionality to the system by displaying a popup requiring the user to perform an action in this area, the information will modify some aspect of the context to  which is applied. The title's background color is active brown.
+* *Action Alert:* This modal alert will provide additional fuctionality to the system by displaying a popup requiring the user to perform an action. The title's background color is active brown.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-08.png[]
