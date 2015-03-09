@@ -4,63 +4,37 @@
 3.1 Color
 ~~~~~~~~~
 
-This color palette summarizes all the color used across the web application. Each color was selected carefully to work harmoniously between each other. They are also gruped conceptually.
+A color palette summarizes all the color used across the web application. Each color was selected carefully to work harmoniously between each other. They are also gruped conceptually under the concept of hierarchical layers. There will be an order that has to be applied to the different layers in the web app. The order is defined by the less important information to the most relevant information. This hierarchical orden is adopted by the general structure, while each element in the workspace will follow the colors established in the UI Elements' guidelines.
 
-3.1.1 Evergreen's Green
-^^^^^^^^^^^^^^^^^^^^^^^
+3.1.1 Color Palette
+^^^^^^^^^^^^^^^^^^^
 
-The main color of the project is green. As this is the color of the logo, it will be called Evergreen´s Green. This color will be used in the main menu
+This is the general color palette of the Evergreen's web staff client:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-07.png[]
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20pallete.png[]
 
-3.1.2 Prominent Orange
-^^^^^^^^^^^^^^^^^^^^^^
+3.1.2 Color Layers (Structure)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This orange is used to highlight some UI elements like buttons or titles.
+Colors give hierarchy to elements. This means that the color combination establish logic layers that remark the visual importance of each element, guiding the users' eyes to see what is more relevant in the UI.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-02.png[]
+By establish a fixed and well defined visual hierarchy using colors but only at a structural level ensures a precise visual order of the information displayed and eliminates potential problems of consistency and subjectivity.
 
-3.1.3 Wrong Red
-^^^^^^^^^^^^^^^
+image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20layers.png[]
 
-This red is used to inform the user that something is wrong.
+3.1.3 Color Meanings (Popups)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-08.png[]
+Colors give meaning to elements. Each color has a special meaning and it is supposed to be applied to elements that need to transmit an implicit message. This approach is used only in popups or dialogues, ensuring that both, the tone and the message will be emphasized by using a visual resource.
 
-3.1.4 Positive Green
-^^^^^^^^^^^^^^^^^^^^
+* *Wrong Red:* This red is used to inform the user that something is wrong.
+* *Positive Green:* Positive means that a specific task is achieved as expected or that there is no problems. 
+* *Informative Blue:* This blue is used just to inform something to users.
+* *Insecure Purple:* When something needs an answer of any kind, insecure purple appears.
+* *Action Brown:* Color that has to do with performing an action.
+* *Grey Scale:* These three greys are used to guide users.
 
-Positive means that a specific task is achieved as expected or that there is no problems. 
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-03.png[]
-
-3.1.5 Informative Blue
-^^^^^^^^^^^^^^^^^^^^^^
-
-This blue is used just to inform something to users.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-04.png[]
-
-3.1.6 Insecure Purple
-^^^^^^^^^^^^^^^^^^^^^
-
-When something needs an answer of any kind, insecure purple appears.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-05.png[]
-
-3.1.7 Action Brown
-^^^^^^^^^^^^^^^^^^
-
-Color that has to do with performing an action.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-06.png[]
-
-3.1.8 Grey Scale
-^^^^^^^^^^^^^^^^
-
-These three greys are used to guide users.
-
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20palette-01.png[]
+*Refer to the color palette to find out what color is the explanations relate.
 
 3.2 Typography
 ~~~~~~~~~~~~~~
@@ -77,6 +51,10 @@ As mentioned before (Page Layout and Structure - Metrics), each range of screen 
 ||*1366x768 to 1600x1200*|*1600x1200 to 1920x1080*|*1920x1080 to 2560x1440*
 |General Type size (body)|16px|18px|20px
 |Context Title    |20px|22px|24px
+|Subtitle's Context | 14px|16px|18px
+|Title's Actions (Context Actions) | 14px|16px|18px
+|Title (Title/Action Bar) | 20px|22px|24px
+|Tabs (Title/Actions Bar) | 16px|18px|20px
 |Footer    |14px|16px|18px
 |=======================
 
@@ -84,7 +62,7 @@ As mentioned before (Page Layout and Structure - Metrics), each range of screen 
 ^^^^^^^^^^^^^^^^
 
 * When the background color is white or a light color: Roboto Normal 400 will be in grey scale, dark grey (#231F20).
-* When the backgrund color is a color:Roboto Normal 400 will be in white (#FFFFFF).
+* When the backgrund color is a dark color: Roboto Normal 400 will be in white (#FFFFFF).
 
 You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fonts]
 
@@ -93,6 +71,6 @@ You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fon
 
 There are two types of icnons in the web staff client: Bootstrap Glyphicon Halflings set and FatCow Icon set.
 
-http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyphicon Halflings set] will be use in the dropdown menu (Module Bar) to illustrate each possibility within each module.
+http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyphicon Halflings set] will be use in the whole web staff application.
 
-http://www.fatcow.com/free-icons[FatCow Icon set] will be use in the Context Bar to illustrate each action that can be applied to a particular context.
+http://www.fatcow.com/free-icons[FatCow Icon set] will be use in the Context Bar to illustrate each action that can be applied to a particular context and in the home page.
