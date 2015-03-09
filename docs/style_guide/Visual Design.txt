@@ -4,48 +4,48 @@
 3.1 Color
 ~~~~~~~~~
 
-A color palette summarizes all the color used across the web application. Each color was selected carefully to work harmoniously between each other. They are also gruped conceptually under the concept of hierarchical layers. There will be an order that has to be applied to the different layers in the web app. The order is defined by the less important information to the most relevant information. This hierarchical orden is adopted by the general structure, while each element in the workspace will follow the colors established in the UI Elements' guidelines.
+A color palette summarizes all the colors used across the web application. Each color was selected carefully to work harmoniously with one another. They are also grouped conceptually into hierarchical layers. There will be an order that has to be applied to the different layers in the web app, creating a scale from the less important to the most relevant information. This hierarchical order is used by the general structure, and the concepts have also been applied such that elements in the workspace can (in most cases) simply follow the colors established in the UI Elements guidelines.
 
 3.1.1 Color Palette
 ^^^^^^^^^^^^^^^^^^^
 
-This is the general color palette of the Evergreen's web staff client:
+This is the general color palette of Evergreen's web staff client:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20pallete.png[]
 
 3.1.2 Color Layers (Structure)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Colors give hierarchy to elements. This means that the color combination establish logic layers that remark the visual importance of each element, guiding the users' eyes to see what is more relevant in the UI.
+Colors give hierarchy to elements. The color combination establishes logical layers that imply the visual importance of each element, guiding the users' eyes to what is more relevant in the UI.
 
-By establish a fixed and well defined visual hierarchy using colors but only at a structural level ensures a precise visual order of the information displayed and eliminates potential problems of consistency and subjectivity.
+Establishing a fixed and well defined visual hierarchy using colors, but only at a structural level, ensures a precise visual order of the information displayed and eliminates potential problems of consistency and subjectivity.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/color%20layers.png[]
 
 3.1.3 Color Meanings (Popups)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Colors give meaning to elements. Each color has a special meaning and it is supposed to be applied to elements that need to transmit an implicit message. This approach is used only in popups or dialogues, ensuring that both, the tone and the message will be emphasized by using a visual resource.
+In special cases, colors can give meaning to elements. Each color has a meaning, and should be applied to elements that need to transmit an implicit message. This approach is used primarily in popups or dialogues, ensuring that both the tone and the message will be emphasized by using a visual resource.
 
 * *Wrong Red:* This red is used to inform the user that something is wrong.
-* *Positive Green:* Positive means that a specific task is achieved as expected or that there is no problems. 
-* *Informative Blue:* This blue is used just to inform something to users.
+* *Positive Green:* Positive means that a specific task was achieved as expected, or that there are no problems. 
+* *Informative Blue:* This blue is used just to inform users of something.
 * *Insecure Purple:* When something needs an answer of any kind, insecure purple appears.
 * *Action Brown:* Color that has to do with performing an action.
 * *Grey Scale:* These three greys are used to guide users.
 
-*Refer to the color palette to find out what color is the explanations relate.
+*Refer to the color palette to relate colors to explanations.
 
 3.2 Typography
 ~~~~~~~~~~~~~~
 
-Roboto is a font extensively tested in many devices. It guarantee legibility, clarity and readability.
+Roboto is a font extensively tested in many devices. It guarantees legibility, clarity, and readability.
 
 Evergreen will use this typography only in two weights: regular and bold. Every text will be written in regular, titles of modules and contexts will be in bold.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Visual%20design/type-02.png[]
 
-As mentioned before (Page Layout and Structure - Metrics), each range of screen resolution will vary according to the proportional increase of the screens. There are going to be three different sizes in a single screen, next is a table showing each size related to the range:
+As mentioned before (Page Layout and Structure - Metrics), the guide supports three screen resolution ranges. There are three different text sizes used within each range; here is a table showing where to apply each size related to the range:
 
 |=======================
 ||*1366x768 to 1600x1200*|*1600x1200 to 1920x1080*|*1920x1080 to 2560x1440*
@@ -61,7 +61,7 @@ As mentioned before (Page Layout and Structure - Metrics), each range of screen 
 3.2.1 Type color
 ^^^^^^^^^^^^^^^^
 
-* When the background color is white or a light color: Roboto Normal 400 will be in grey scale, dark grey (#231F20).
+* When the background color is white or a light color: Roboto Normal 400 will be dark grey (#231F20).
 * When the backgrund color is a dark color: Roboto Normal 400 will be in white (#FFFFFF).
 
 You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fonts]
@@ -69,7 +69,7 @@ You can download Roboto Normal 400 from: https://www.google.com/fonts[Google Fon
 3.3 Iconography
 ~~~~~~~~~~~~~~~
 
-There are two types of icnons in the web staff client: Bootstrap Glyphicon Halflings set and FatCow Icon set.
+There are two types of icons used in the web staff client: Bootstrap Glyphicon Halflings set and FatCow Icon set.
 
 http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp[Bootstrap Glyphicon Halflings set] will be use in the whole web staff application.
 
