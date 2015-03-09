@@ -4,7 +4,7 @@
 1.1 Be Simple
 ~~~~~~~~~~~~~
 
-Simplicity of tasks, white spaces and an intuitive navigation are the perfect combination that users expect from a web application. Reducing extra effort avoids frustration and early abandonment.
+Simplicity of tasks, white spaces, and an intuitive navigation are the perfect combination that users expect from a web application. Reducing extra effort avoids frustration and early abandonment.
 
 [red]*Don´t*
 
@@ -14,14 +14,14 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Des
 
 [green]*Do*
 
-Design Patterns as Progressive and Staged Disclosure can be applied. Focus is always on reducing user effort.
+Design Patterns such as Progressive and Staged Disclosure can be applied. Focus is always on reducing user effort.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-04.png[]
 
 1.2 Be Concise
 ~~~~~~~~~~~~~~
 
-Users need their tasks to be done quickly and effectively when needed. Give brief and precise instructions so users do not waste time completing unnecessary information or thinking too much about how to proceed.
+Users need their tasks to be done quickly and effectively. Give brief and precise instructions so users do not waste time completing unnecessary information or thinking too much about how to proceed.
 
 [red]*Don´t*
 
@@ -38,7 +38,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Des
 1.3 Be Consistent
 ~~~~~~~~~~~~~~~~~
 
-Users feel lost when everything changes as they move around a web application. Visual consistency makes UIs easier to use, gives an overall impression of professionalism and reliability, and it reduces the slope of the UI learning curve which is one of the main “enemies” of the user experience.
+Users feel lost when everything changes as they move around a web application. Visual consistency makes UIs easier to use, gives an overall impression of professionalism and reliability, and reduces the slope of the UI learning curve, which is one of the main “enemies” of the user experience.
 
 [red]*Don´t*
 
@@ -52,7 +52,7 @@ Conventions are made to be followed. Preset guidelines ensure uniformity. The us
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Design%20principles/principles-06.png[]
 
-1.4 Give permanent Feedback
+1.4 Give Continual Feedback
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Feedback is an essential property of a usable product, and necessary to avoid confused or frustrated users. It is critical for the user to naturally flow through the UI without wondering what is happening. Notify the user that all actions he or she is performing are being processed, made, or verified at all times (as necessary).
@@ -72,7 +72,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Des
 1.5 Being friendly always works
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Language is the most important way to communicate between people, but communication channels and codes vary a lot when a system is involved. Show that systems are developed by people; avoid technical words or codes and be gentle in the way things are stated.
+Language is the most important way to communicate between people, but communication channels and codes vary a lot when a system is involved. Show that systems are developed by people; avoid technical words or codes, and be gentle in the way things are stated.
 
 [red]*Don´t*
 
