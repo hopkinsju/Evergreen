@@ -1,20 +1,20 @@
 2. Page Layout and Structure
 ----------------------------
 
-This section will provide the basic guidelines to develop a consistent user interface throughout the whole application. A consistent UI has the benefit of: 
+This section will provide the basic guidelines to develop a consistent user interface throughout the whole application. A consistent UI has the following benefits: 
 
-* When designing, removes the need to make the same decision time and again;
-* When coding, enables the use of templates and pre-defined snippets of code;
-* It also gives the possibility to facilitate UI development create a scalable application.
+* When designing, it removes the need to make the same decision repeatedly;
+* When coding, it enables the use of templates and pre-defined snippets of code;
+* It also gives the possibility to facilitate UI development to create a scalable application.
 
 2.1 Metrics
 ~~~~~~~~~~~
 
-Metrics were designed for three different screen resolutions. As the screen resolution increases, the measures are changing accordingly. This metrics have to be respected within the web staff client, this will bring consistency, order and a neat UI design.
+Metrics were designed for three different screen resolutions. As the screen resolution increases, the measures change accordingly. These metrics have to be respected within the web staff client, where doing so will bring consistency, order, and a neat UI design.
 
-All the metrics are going to be used for all the screen resolutions depending each range. The base of each measure will be the typography size of the body. Metrics are expressed in "ems".
+All the metrics are going to be used for all the screen resolutions within each range. The base of each measure will be the typography size of the body. Metrics are expressed in "ems".
 
-There are also two more different sizes of typography in a single UI design. This means that the body typography will determine the UI measures and the size of text within the web staff client, however, there are two different sizes, metrics will be maintained based on the typeface size of the body but only the typeface size will change. 
+Besides the body, there are two additional sizes of typography in the UI design. The body typography will determine the UI measurements and the size of text within the majority of the web staff client. Where the two additional text sizes are used, UI metrics will still be maintained based on the typeface size of the body, and only the typeface size will change. 
 
 2.1.1 Ranges
 ^^^^^^^^^^^^
@@ -32,26 +32,26 @@ From now on "Range #2". Taking 18px as the default typography size of the body, 
 From now on "Range #3". Taking 20px as the default typography size of the body, [black]_1em is going to be equal to 20px always_.
 
 
-2.2 Page general structure
+2.2 General Page Structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The UI general structure is divided into two types of user interfaces according to the information displayed. This difference is defined by the presence or absence of context. Context is understood as an entity with a given state to which a set of actions can be applied and, in consequence, modify its state.
+The UI general structure is divided into two types of user interfaces depending on the information displayed. This difference is defined by the presence or absence of context. Context is understood as an entity with a given state to which a set of actions can be applied and, in consequence, modify its state.
 
-2.2.1 Without context
+2.2.1 Without Context
 ^^^^^^^^^^^^^^^^^^^^^
 
 The UI without context will be composed of five main elements:
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure/structure-01.png[]
 
-[black]*Program Bar*: It is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool often used. This section will be always located at the very top of the page. Evegreen´s logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts, account configuration or any action regarding to this criteria, located on the right side of this header.
+[black]*Program Bar*: It is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool used often. This section will always be located at the very top of the page. Evegreen's logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts, apply configuration options, or perform any other action related to the user's account. This button is located on the right side of this header.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc2.png[]
 
 Metrics
 +++++++
 
-The program bar will have 3em of height and its width will be adapted to the screen resolution width. Margins will be 3em.
+The program bar will have a height of 3em and its width will be adapted to the screen resolution width. Margins will be 3em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/program%20bar-01.png[]
 
@@ -63,14 +63,14 @@ The user/library button will be as large as the text is; also the distance betwe
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/program%20bar-03.png[]
 
-[black]*Module Bar*: All the actions that can be performed across the web application are divided and grouped into modules. Those modules are located in this bar present in all the web app screens. By clicking the modules a dropdown menu will be displayed. It can contain as many modules as needed.
+[black]*Module Bar*: All the actions that can be performed across the web application are divided and grouped into modules. Those modules are located in this bar present in all the web app screens. When clicking the modules, a dropdown menu will be displayed. The bar can contain as many modules as needed.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc3.png[]
 
 Metrics
 +++++++
 
-The module bar will have 2,5em of height and its width will be adapted to the screen resolution. Margin will be 3em.
+The module bar will have a height of 2.5em and its width will be adapted to the screen resolution. Margin will be 3em.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20bar-01.png[]
 
@@ -82,16 +82,16 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Lay
 
 Each module is separated by a thin white line that will make each module work like a button. 
 
-[black]*Title/Action Bar*: To locate the user is precise to have each module title in sight. This bar will contain the module title in left alignment. This bar is also prepare to handle with tabs and it contains buttons. This means that it has the purpose of  locate the user and trigger actions that apply to the entire page. Title/Action Bar will be stick at the top of the screen as users scroll.
+[black]*Title/Action Bar*: The user must be able to easily locate the title of the current module activity. This bar will contain the activity title in left alignment. This bar is also able to handle tabs, and sometimes contains buttons. The bar's overall purpose is to locate the user and trigger actions that apply to the entire page. The Title/Action Bar will stick to the top of the screen as the user scrolls.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc4.png[]
 
 Metrics
 +++++++
 
-Module title´s font size will be in Range #1: 20px bold; in Range #2: 22px bold and in Range #3: 24px bold. Every text will be left aligned with a left margin of 3em.
+The activity title's font size will be in Range #1: 20px bold; in Range #2: 22px bold; and in Range #3: 24px bold. Every title will be left aligned with a left margin of 3em.
 
-Action buttons will be located in the right side respecting the 3em margin or next to the title.
+Action buttons will be located on the right side respecting the 3em margin or next to the title.
 
 image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-01.png[]
 
