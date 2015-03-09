@@ -36,7 +36,7 @@ Buttons are a stylized text or image that illustrate an action and invite the us
     - Lineal Gradient from # 0A5D8E to # 0A5582.
 	- Light will always be at the top of the button.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-01.png[]
 
 [black]*Accent buttons will be:*
 
@@ -49,7 +49,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
     - Lineal Gradient from # 1494CC to # 1588BB.
 	- Light will always be at the top of the button.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-04.png[]
 
 [black]*Flat buttons will be:*
 
@@ -60,51 +60,51 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
     ** On a white background: Dark gray (#231F20).
     ** On a color background: White (#FFFFFF).
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-05.png[]
 
 *Button Content*
 
 Buttons of any type can contain only text, only an icon (Bootstrap Glyphicon Halflings set) or both. They can also function as a dropdown menu trigger. Here are the possible combinations (for both, with background and flat buttons):
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-13.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-13.png[]
 
 *Metrics*
 
 All buttons will have fixed heights, while the width will vary according to the word or icon each button contains.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-02.png[]
 
 As said, text will be 16px (Range #1), 18px (Range #2), 20px (Range #3) in a center alignment. Margins will be 1em.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-03.png[]
 
 If the button is a combination of text and an icon:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-08.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-08.png[]
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-11.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-11.png[]
 
 If the button contains only an icon:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-09.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-09.png[]
 
 If the button functions as a dropdown trigger:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-12.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-12.png[]
 
 Distance between buttons:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-10.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-10.png[]
 
 *State*
 
 Not pressed:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-06.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-06.png[]
 
 When pressing:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-07.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-07.png[]
 
 Gradient will be eliminated, so the background color will change to:
 
@@ -118,7 +118,7 @@ Disabled:
 
 When a button is not available it will look like:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/buttons-14.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/buttons-14.png[]
 
 This is achieved by applying opacity=0.5 to the text/icon/both in primary, accent and flat buttons. In the first two the background will retain its color as established.
 
@@ -129,15 +129,15 @@ Checkboxes allow the user to select one or more options from a set. Checkboxes s
 
 * At the right side of a word if it is the only option that the user can check
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/checkbox-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/checkbox-01.png[]
 
 * At the left side of a set of options if the user can perform a multiple selection
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/checkbox-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/checkbox-02.png[]
 
 * Alone. They will be visually separated from the text; however, they correspond to a specific option.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/checkbox-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/checkbox-05.png[]
 
 The default input type="checkbox" should be used to apply this element to the UI. Every checkbox will be located 1em from the word (to the left or right side) or in a center alignment.
 
@@ -145,11 +145,11 @@ The default input type="checkbox" should be used to apply this element to the UI
 
 Unchecked:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/checkbox-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/checkbox-03.png[]
 
 Checked:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/checkbox-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/checkbox-04.png[]
 
 4.1.3 Expand/collapse
 ^^^^^^^^^^^^^^^^^^^^^
@@ -158,11 +158,11 @@ When there is lack of space, or there is information that can be hidden momentar
 
 * glyphicon-resize-full:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/expand%20collapse-01.png[]
 
 * glyphicon-resize-small:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/expand%20collapse-02.png[]
 
 The icon will have 1em of width. Its color will vary depending on the backgruond color: if the background color is white or a light color, use #231F20 (dark gray); if the background color is a dark color, use #FFFFFF (white).
 
@@ -170,13 +170,13 @@ The way in which the information is shown when expanding should vary depending o
 
 Inside a bar:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/expand%20collapse-03.png[]
 
 Information will be within a white rectangle with a faint shadow around it. Notice that the content in the workspace is not covered; it was adjusted to fit in the remaining space.
 
 In the workspace:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/expand%20collapse-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/expand%20collapse-04.png[]
 
 4.1.4 Dropdown Menu
 ^^^^^^^^^^^^^^^^^^^
@@ -185,11 +185,11 @@ Dropdown menus allow the user to select an item at a time and perform different 
 
 * With selection icons: Used when the selections are primary actions. These actions will generally result in a new interface being displayed.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/dropdown%20menu-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/dropdown%20menu-01.png[]
 
 * Without icons: Used to display secondary actions. Such actions are applied to a specific element and may therefore change the contents of the screen, but will not result in a new interface.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/dropdown%20menu-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/dropdown%20menu-02.png[]
 
 *Specs*
 
@@ -208,16 +208,16 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 There are no specific measurements for the menu size; it will depend on the content of each dropdown menu. But metrics do determine with margins between objects:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/dropdown%20menu-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/dropdown%20menu-03.png[]
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/dropdown%20menu-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/dropdown%20menu-04.png[]
 
 4.1.5 Date Pickers
 ^^^^^^^^^^^^^^^^^^
 
 When pickers are used to select a date, the information is consistently formatted and input into the system.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/pickers-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/pickers-01.png[]
 
 The picker will be composed of a calendar of the current month and toggles to select different months.
 
@@ -225,11 +225,11 @@ The picker will be composed of a calendar of the current month and toggles to se
 
 The picker itself will be # 0 Blue (# 137DAB), and its measure will be 1em square:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/pickers-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/pickers-03.png[]
 
 In context:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/pickers-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/pickers-02.png[]
 
 4.1.6 Toggles
 ^^^^^^^^^^^^^
@@ -244,25 +244,25 @@ There are two different types:
 
 Common toggles will measure:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/toggles-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/toggles-01.png[]
 
 Each arrow will be center aligned. They will measure:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/toggles-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/toggles-02.png[]
 
 Tips toggles will measure:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/toggles-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/toggles-03.png[]
 
 *States*
 
 Tips toggle inactive (by default):
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/toggles-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/toggles-04.png[]
 
 Tips toggle active (by clicking it):
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/toggles-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/toggles-05.png[]
 
 4.1.7 Text fields
 ^^^^^^^^^^^^^^^^^
@@ -287,43 +287,43 @@ Text fields allow users to enter data.  They can allow either a single line or m
 
 [black]*Single line:*
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/fields-01.png[]
 
 Text fields with a single line can have a help text to guide the user to enter the correct information in them. The text will be 1em from the left border:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/fields-03.png[]
 
 [black]*Multiple lines:*
 
 These metrics are defined as a default. The text field would have the possibility of being manually resized according to the user needs (with the resize handle represented in the bottom right corner).
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/fields-02.png[]
 
 [black]*Dropdown Field:*
 
 When users can choose between a set of options, a dropdown field will be displayed.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/fields-04.png[]
 
 [black]*Toggle Field:*
 
 This type of text field allows users to cycle through consecutive options, giving the possibility of going backwards and forwards.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-07.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/fields-07.png[]
 
 [black]*Distance between fields:*
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-08.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/fields-08.png[]
 
 *States*
 
 [black]*Default:* When the text field is in its default state, it will look like:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/fields-05.png[]
 
 [black]*Filled:* Once it is completed or the option is selected (in the dropdown or toggle field types), it will look like:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/fields-06.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/fields-06.png[]
 
 The difference is the text color: light gray (# BCBEC0) turns into dark gray (#231F20).
 
@@ -346,27 +346,27 @@ Forms allow a user to enter data which is sent to a server for processing. They 
 
 [black]*Single Row:* When only one or two fields are needed to perform a specific action, they may be displayed in a single row. In such cases, help text may be placed within the field to guide the user in lieu of a label. Distance between fields and buttons will be 0.5em.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/form-02.png[]
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/form-01.png[]
 
 [black]*With Label:* A label should be used next to each text field when the form requires three or more fields. That label will be the indication of the information to enter in the text field.  Labels are left aligned to facilitate scanning for a particular field. Help text inside the text field can work as an example of what to introduce or to specify that the field is required or optional. It is not neccessary to use it in every case, but only when additional clarity is required.
 
 In forms of three or more fields, the fields will be arranged into a single column. Buttons are located at the bottom of the form in a right alignment.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/form-03.png[]
 
 [black]*Large forms:* Forms that are divided into more than one related sections are called large forms. They are composed of subheaders, lables, text fields, and sometimes buttons. (Remember: if forms or other large UI elements occupy the entire workspace, actions that are applied to it (i.e. the entire page) should be located in the title/action bar.)
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/form-04.png[]
 
 Large forms need space, so they are located in the workspace and are not accompanied by any other content due to the large number of elements involved in the page. They are presented in a single column. Metrics of fields, subheaders and labels are:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/form-05.png[]
 
 There are a table of contents, a search field, and some filters to the upper right of the large form. Those elements help users find specific fields, or manage the visualization of needed fields. It is most useful when forms are too large and exceed the height of the screen. By clicking each item in the table of contents, users can get to that specific portion of the form.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/form-06.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/form-06.png[]
 
 4.1.9 Radio Buttons
 ^^^^^^^^^^^^^^^^^^^
@@ -375,21 +375,21 @@ Radio buttons are used when you want to let users select one - and just one - op
 
 When there is only one option the radio button will be located at the right side of the text:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/radio%20button-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/radio%20button-01.png[]
 
 When there are more than one option, the radio button will be located at the left side of the text:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/radio%20button-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/radio%20button-02.png[]
 
 *State*
 
 Unchecked:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/radio%20button-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/radio%20button-03.png[]
 
 Checked:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Input/radio%20button-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Input/radio%20button-04.png[]
 
 4.2 Navigational Components
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -418,17 +418,17 @@ The network indicator activity element will be composed of a spinner, a message,
 
 The alert will measure:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Navigational/spiner-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Navigational/spiner-02.png[]
 
 The spiner will be:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Navigational/spiner-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Navigational/spiner-03.png[]
 
 *Effect*
 
 The spiner will have an effect of clockwise rotation. The three orange rectangles will be moving around the green ones until the action or activity is ready:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Navigational/spiner-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Navigational/spiner-01.png[]
 
 4.2.2 Menu Selector
 ^^^^^^^^^^^^^^^^^^^
@@ -452,25 +452,25 @@ Menu selector metrics will vary according to where they are. In menus, they will
 
 Module Bar:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Navigational/menu%20selector-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Navigational/menu%20selector-01.png[]
 
 Context Bar
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Navigational/menu%20selector-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Navigational/menu%20selector-02.png[]
 
 Title/Action Bar (Tabs):
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Navigational/menu%20selector-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Navigational/menu%20selector-03.png[]
 
 *States*
 
 Selected:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Navigational/menu%20selector-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Navigational/menu%20selector-04.png[]
 
 On hover over:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Navigational/menu%20selector-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Navigational/menu%20selector-05.png[]
 
 On hover over the color changes to:
 
@@ -500,9 +500,9 @@ A tooltip allows a user to see hints when they hover over an item indicating the
 * Metrics
     - Will vary depending on the text. It can contain a single line or multiple lines. It measures can not be greater than width=12.5em and height=10em or less than height=2.25em. 
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tooltip-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tooltip-01.png[]
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tooltip-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tooltip-02.png[]
 
 4.3.2 Dividers
 ^^^^^^^^^^^^^^
@@ -522,7 +522,7 @@ Dividers are thin gray lines that help divide spaces or regions of the UI to org
 * Usage
     - To separate different items within a set.
     
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/divider-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/divider-01.png[]
 
 4.3.3 Subheaders
 ^^^^^^^^^^^^^^^^
@@ -536,7 +536,7 @@ Subheaders function as subtitles within a module. They are located only in the w
 
 Primary Subheader:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/subheader-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/subheader-01.png[]
 
 * Font
     - Roboto Bold.
@@ -551,7 +551,7 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 Secondary Subheader:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/subheader-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/subheader-02.png[]
 
 * Font
     - Roboto Bold.
@@ -572,17 +572,17 @@ The table UI element is one of the most frequently used within the Evergreen web
 
 Tables are composed of three main areas:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tables-01.png[]
 
 * [black]*Table Bar:* This bar contains a wealth of information and features for every table. It will show a title to locate the user; an Action set which can be applied to the rows; a Page navigator to work through the set of information; and a Table configuration icon (cog icon) to change the default table view and other configuration options that apply to every table.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tables-02.png[]
 
 Something important to highlight is the action set. It is composed of up to three buttons; the first two will be the most common actions, and the third is a trigger button to open more actions (shown as a dropdown menu).
 
 * [black]*Columns Bar:* This section will display the a "Check all results" checkbox to implement a specific action - or set of actions- on all the results retrieved, a "Number of result" column to facilitate the observation of information, and the column headers for each field being displayed.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tables-03.png[]
 
 * [black]*Table Results:* Where all the results retrieved are exposed. The information will be presented according to either the default configuration or options selected by the user.
 
@@ -590,15 +590,15 @@ image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%
 
 Table bar: Height of 2.25em. #-2 Green background color. Each icon used in this bar will have width=1em.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tables-04.png[]
 
 Columns Bar: Height of 2.25em.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tables-05.png[]
 
 Table Results: Each row will have 2.25em of height. As a visual detail, every other row should have a #-2 Green background color with opacity=0.2 to help the visualization of the information, starting from the first row. The number of columns will always be 8 (without the number of column and the checkbox columns) as a default.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-06.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tables-06.png[]
 
 *Results States*
 
@@ -606,11 +606,11 @@ Table results have two posible states.
 
 Default: Checkboxes are unchecked and the actions set is disabled.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-07.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tables-07.png[]
 
 Selected: One or more checkboxes will be checked and the actions set will be enabled.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/tables-08.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/tables-08.png[]
 
 *Combination*
 
@@ -618,18 +618,18 @@ One common combination will be buttons/checkboxes/text fields + table. Buttons c
 
 Up to three buttons:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/combinations-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/combinations-01.png[]
 
 More than three buttons:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/combinations-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/combinations-02.png[]
 
 *Grouping*
 
 When a specific UI element (or combination of elements) is completely related to a table, and is displayed in conjunction with elements *not* directly tied to the table, the related element (or elements) should be grouped with the table by a thin line. The line will be 1px, with a 5px rounded edges only in the upper corners, in a #-2 Green color.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/grouping-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/grouping-01.png[]
 
 When there is no more information displayed on the screen than the table and the related UI element (or combination of elements), is not neccessary to group them with a line.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/UI%20Elements/Informational/grouping-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/UI%20Elements/Informational/grouping-02.png[]

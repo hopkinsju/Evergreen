@@ -42,49 +42,49 @@ The UI general structure is divided into two types of user interfaces depending 
 
 The UI without context will be composed of five main elements:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure/structure-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/structure/structure-01.png[]
 
 [black]*Program Bar*: It is important for the project to locate its logo permanently within the web application so that users know where they are even though it is a tool used often. This section will always be located at the very top of the page. Evegreen's logo will be located on the left side. It also shows a user/library button that will allow the user to log out, switch between different accounts, apply configuration options, or perform any other action related to the user's account. This button is located on the right side of this header.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc2.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/woc2.png[]
 
 Metrics
 +++++++
 
 The program bar will have a height of 3em and its width will be adapted to the screen resolution width. Margins will be 3em.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/program%20bar-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/program%20bar-01.png[]
 
 Evergreen´s logo will be:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/program%20bar-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/program%20bar-02.png[]
 
 The user/library button will be as large as the text is; also the distance between the icon and the text is measured and has to be respected (see more in "Buttons" - Visual Design):
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/program%20bar-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/program%20bar-03.png[]
 
 [black]*Module Bar*: All the actions that can be performed across the web application are divided and grouped into modules. Those modules are located in this bar present in all the web app screens. When clicking the modules, a dropdown menu will be displayed. The bar can contain as many modules as needed.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc3.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/woc3.png[]
 
 Metrics
 +++++++
 
 The module bar will have a height of 2.5em and its width will be adapted to the screen resolution. Margin will be 3em.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20bar-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/module%20bar-01.png[]
 
 There are some metrics that are important to respect in the module bar structure like the distance between the text and the down arrow and the distance between each module title:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20bar-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/module%20bar-03.png[]
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20bar-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/module%20bar-02.png[]
 
 Each module is separated by a thin white line that will make each module work like a button. 
 
 [black]*Title/Action Bar*: The user must be able to easily locate the title of the current module activity. This bar will contain the activity title in left alignment. This bar is also able to handle tabs, and sometimes contains buttons. The bar's overall purpose is to locate the user and trigger actions that apply to the entire page. The Title/Action Bar will stick to the top of the screen as the user scrolls.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc4.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/woc4.png[]
 
 Metrics
 +++++++
@@ -93,17 +93,17 @@ The activity title's font size will be in Range #1: 20px bold; in Range #2: 22px
 
 Action buttons will be located on the right side (respecting the 3em margin) or next to the title.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/module%20title%20bar-01.png[]
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/module%20title%20bar-02.png[]
 
 Tabs are elements where the content is separated into different panes, and each pane is visible one at a time. The user requests content to be displayed by clicking the content's corresponding tab control. When functioning as a tab bar, each tab's title type will measure the same as the body's typography size in the regular weight. Each tab will be separate by a thin white line.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/module%20title%20bar-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/module%20title%20bar-03.png[]
 
 [black]*Workspace*: The information should be presented consistently in all the different screens of the web application.  Variable content (text, forms, lists, tables, etc) will be shown only in this limited area. Margins and grids must be respected.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc5.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/woc5.png[]
 
 Metrics
 +++++++
@@ -112,29 +112,29 @@ Some metrics that need to be respected are the distance between the workspace an
 
 [black]*Footer*: The fact of Evergreen being an open source software project should be communicated to the user. The footer will contain a brief description about the license used and also the most recent release year to show that it is regularly updated.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc6.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/woc6.png[]
 
 The text will be 14px (Range #1)/ 16px (Range #2)/ 18px (Range #3) and will be aligned to the center of the footer:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/footer-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/footer-01.png[]
 
 2.2.2 With context
 ^^^^^^^^^^^^^^^^^^
 
 The general structure is the same with and without context, the only difference is that a new bar is displayed. The UI with context will be composed of six main elements:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/structure/structure-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/structure/structure-02.png[]
 
 [black]*Context Bar*: This bar will appear only when an action set could be applied to a specific context. The actions will be represented with icons from the FatCow icon set.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/woc7.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/woc7.png[]
 
 Metrics
 +++++++
 
 The size of typography varies with respect to the body only in the left section (where the context is mentioned). Every context will be written in 20px bold, while the subtitle type size is 14px. This subtitle will express some important details that are relevant to users.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/context%20bar-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/context%20bar-01.png[]
 
 The icon region requires some explanation:
 
@@ -144,57 +144,57 @@ The icon region requires some explanation:
 * The presence of the hamburger icon (in the right side of the context bar) represents that there are more possible actions beyond the six shown.
 * If the number of actions that can be performed to the context is fewer than eight, the hamburger icon will not be displayed.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/context%20bar-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/context%20bar-02.png[]
 
 In the right portion of the context bar we can find a section called the "Results Manager". It allows the possibility of returning to the UI where the search results are, going to the next or previous context one by one, or to the first or last one directly. It also gives the option of searching a new context. It will be displayed only when the context is arrived at from a search interface.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/components/context%20bar-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/components/context%20bar-03.png[]
 
 2.3 Layout template or grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The layout template or grid will be orthogonal. This template will be adapted (scalable) to different screen resolutions. With context: 
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-06.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/template/template-06.png[]
 
 Without context:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/template/template-04.png[]
 
 2.3.1 Metrics
 ^^^^^^^^^^^^^
 
 Horizontal margin will be 3em on both sides of the UI.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/template/template-05.png[]
 
 The general structure is divided into three main columns. These columns define the location of the content in the workspace. There are secondary baselines that create a smaller subarea if neccessary.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/template/template-02.png[]
 
 Depending on the presence or absence of context the workspace region will vary. With context:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/template/template-01.png[]
 
 Without context:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/template/template-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/template/template-03.png[]
 
 2.4 Popups metrics and structure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-03.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/popups/popups-03.png[]
 
 Metrics apply to all types of popups. Their structure:
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-02.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/popups/popups-02.png[]
 
 Popups will be divided into two areas:
 
 * *Title Bar:* This bar will contain an icon from the Glyphicon set (with width = 2em) illustrating the type of interaction, followed by the title of the message displayed. In addition, this bar will have different colors depending on the information it handles.
 * *Content Region:* The message itself will be contained in this area. The message will be expressed by text, UI elements, or both. Messages will be accompanied by buttons which will accept or cancel them.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-01.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/popups/popups-01.png[]
 
 2.4.1 Types
 ^^^^^^^^^^^
@@ -203,20 +203,20 @@ There will be five different types. The major difference between them will be th
 
 * *Error:* When something isn't going as expected, an error occurs or the information introduced is wrong, an error message popup will be displayed. The title's background color is wrong red.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-04.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/popups/popups-04.png[]
 
 * *Information message:* The only purpose of this kind of popup is to inform. Its title's background color will be informative blue.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-07.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/popups/popups-07.png[]
 
 * *Success message:* Displayed when a user-requested action has been successfully completed. Title's background color: positive green.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-05.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/popups/popups-05.png[]
 
 * *Question message:* Sometimes the system will need a confirmation or information from the user to perform a specific action or process. Title's background color: insecure purple.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-06.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/popups/popups-06.png[]
 
 * *Action Alert:* This modal alert will provide additional fuctionality to the system by displaying a popup requiring the user to perform an action. The title's background color is active brown.
 
-image:https://raw.githubusercontent.com/JuliaLima/OPWInternship/master/Final/Layout/popups/popups-08.png[]
+image:https://raw.githubusercontent.com/JuliaLima/Evergreen/patch-1/docs/style_guide/Images/Layout/popups/popups-08.png[]
